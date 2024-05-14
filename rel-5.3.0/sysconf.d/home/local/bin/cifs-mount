@@ -1,0 +1,13 @@
+#!/bin/bash 
+if [[ "$(basename "$0")" == "cifs-mount" ]]
+then
+	mountpoint -q ~/media/1807   || { mount ~/media/1807 && notify-send " " "1807 montato" ; }
+	mountpoint -q ~/media/music   || { mount ~/media/music && notify-send " " "music montato" ; }
+	mountpoint -q ~/media/mmedia   || { mount ~/media/mmedia && notify-send " " "mmedia montato" ; }
+	mountpoint -q ~/media/pdf   || { mount ~/media/pdf && notify-send " " "pdf montato" ; }
+else
+	mountpoint -q ~/media/1807 && { umount ~/media/1807 && notify-send " " "1807 smontato" ; }
+	mountpoint -q ~/media/music   && { umount ~/media/music && notify-send " " "music smontato" ; }
+	mountpoint -q ~/media/mmedia   && { umount ~/media/mmedia && notify-send " " "mmedia smontato" ; }
+	mountpoint -q ~/media/pdf   && { umount ~/media/pdf && notify-send " " "pdf smontato" ; }
+fi

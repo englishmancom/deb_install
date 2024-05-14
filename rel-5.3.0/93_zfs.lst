@@ -1,0 +1,4 @@
+linux-headers-amd64
+zfs-dkms
+zfsutils-linux 
+zfs-zed

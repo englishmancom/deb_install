@@ -1,0 +1,157 @@
+--------------- 24-10-2013, 14:13:25 ---------------
+| DC v0.5.7 beta Rev. 5310 -- x86_64-Linux-gtk2
+| Debian jessie/sid -- GTK 2.24.21
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000009E3326 in /usr/lib/doublecmd/doublecmd
+  $00000000009E4FB9 in /usr/lib/doublecmd/doublecmd
+  $00000000004B2CB6 in /usr/lib/doublecmd/doublecmd
+  $00000000004BBF07 in /usr/lib/doublecmd/doublecmd
+  $00000000009E1FB6 in /usr/lib/doublecmd/doublecmd
+  $000000000084EC3D in /usr/lib/doublecmd/doublecmd
+  $00000000004DE44C in /usr/lib/doublecmd/doublecmd
+  $000000000052348F in /usr/lib/doublecmd/doublecmd
+  $00000000006F7DAE in /usr/lib/doublecmd/doublecmd
+  $000000000052312B in /usr/lib/doublecmd/doublecmd
+  $00000000005BBA35 in /usr/lib/doublecmd/doublecmd
+  $00000000005BC2F2 in /usr/lib/doublecmd/doublecmd
+  $0000000000430481 in /usr/lib/doublecmd/doublecmd
+  $000000000063E4E1 in /usr/lib/doublecmd/doublecmd
+  $000000000078BA5D in /usr/lib/doublecmd/doublecmd
+
+--------------- 30-11-2013, 18:44:49 ---------------
+| DC v0.5.7 beta Rev. 5310 -- x86_64-Linux-gtk2
+| Debian jessie/sid -- GTK 2.24.22
+Unhandled exception: EListError: List index (3) out of bounds
+  Stack trace:
+  $000000000091A6B8 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 21-06-2014, 12:58:03 ---------------
+| DC v0.5.10 beta Rev. 5514 -- x86_64-Linux-qt4
+| Debian jessie/sid -- Qt 4.8.6, libQt4Pas 4.5.3
+Unhandled exception: Exception: Invalid user response
+  Stack trace:
+  $0000000000AEA7A1 in /usr/lib/doublecmd/doublecmd
+  $0000000000AEA958 in /usr/lib/doublecmd/doublecmd
+  $0000000000AEAAD3 in /usr/lib/doublecmd/doublecmd
+  $0000000000AEA4AC in /usr/lib/doublecmd/doublecmd
+  $0000000000AEA93C in /usr/lib/doublecmd/doublecmd
+  $0000000000AE9FAF in /usr/lib/doublecmd/doublecmd
+  $0000000000955E1A in /usr/lib/doublecmd/doublecmd
+  $00000000007DAFBA in /usr/lib/doublecmd/doublecmd
+  $0000000000A217CB in /usr/lib/doublecmd/doublecmd
+  $00000000004EAB24 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 19-08-2015, 14:47:53 ---------------
+| DC v0.6.2 beta Rev. 6025 -- x86_64-Linux-qt4
+| Debian stretch/sid -- Qt 4.8.7, libQt4Pas 4.5.3
+Unhandled exception: Exception: Cannot add to link
+  Stack trace:
+  $0000000000B089CE in /usr/lib/doublecmd/doublecmd
+  $0000000000B081DA in /usr/lib/doublecmd/doublecmd
+  $0000000000B08545 in /usr/lib/doublecmd/doublecmd
+  $0000000000B081B6 in /usr/lib/doublecmd/doublecmd
+  $0000000000B05F36 in /usr/lib/doublecmd/doublecmd
+  $0000000000A221AB in /usr/lib/doublecmd/doublecmd
+  $00000000004EEE94 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 19-11-2015, 12:00:36 ---------------
+| DC v0.6.6 beta Rev. 6327 -- x86_64-Linux-qt4
+| Debian stretch/sid -- Qt 4.8.7, libQt4Pas 4.5.3
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000008788F7 in /usr/lib/doublecmd/doublecmd
+  $00000000006F72FA in /usr/lib/doublecmd/doublecmd
+  $00000000004350D1 in /usr/lib/doublecmd/doublecmd
+  $000000000062ECF1 in /usr/lib/doublecmd/doublecmd
+  $000000000061A04B in /usr/lib/doublecmd/doublecmd
+  $0000000000632D3C in /usr/lib/doublecmd/doublecmd
+  $00000000004350D1 in /usr/lib/doublecmd/doublecmd
+  $000000000062ECF1 in /usr/lib/doublecmd/doublecmd
+  $00000000006C1E02 in /usr/lib/doublecmd/doublecmd
+  $00000000006CB822 in /usr/lib/doublecmd/doublecmd
+  $00007F6222D281C0 in /usr/lib/x86_64-linux-gnu/libQtCore.so.4
+  $00007F6223A1AAFE in /usr/lib/x86_64-linux-gnu/libQtGui.so.4
+
+--------------- 25-04-2016, 09:57:42 ---------------
+| DC v0.7.1 beta Rev. 6739 -- x86_64-Linux-qt4
+| Debian stretch/sid -- Qt 4.8.7, libQt4Pas 4.5.3
+Unhandled exception: EInvalidPointer: Invalid pointer operation
+  Stack trace:
+  $00000000004324A6 in /usr/lib/doublecmd/doublecmd
+
+--------------- 03-11-2016, 18:26:58 ---------------
+| DC v0.7.5 beta Rev. 7092 -- x86_64-Linux-qt4
+| Debian stretch/sid -- Qt 4.8.7, libQt4Pas 4.5.3
+Unhandled exception: EInvalidPointer: Invalid pointer operation
+  Stack trace:
+  $00000000004324A6 in /usr/lib/doublecmd/doublecmd
+
+--------------- 01-07-2017, 18:24:16 ---------------
+| DC v0.7.7 beta Rev. 7285 -- x86_64-Linux-qt4
+| Debian 9.0 -- Qt 4.8.7, libQt4Pas 4.5.3 | PID 3478
+Unhandled exception: EInvalidPointer: Invalid pointer operation
+  Stack trace:
+  $0000000000432546 in /usr/lib/doublecmd/doublecmd
+
+--------------- 18-04-2020, 18:05:41 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-gtk2
+| Debian bullseye/sid -- GTK 2.24.32 | PID 1538
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000434368 in /usr/lib/doublecmd/doublecmd
+  $00007F17D22E04DE in /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0
+
+--------------- 08-09-2020, 19:09:02 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Debian bullseye/sid -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 24798
+Unhandled exception: EFileNotFound: File "" non trovato.
+  Stack trace:
+  $000000000087E296 line 379, column 6 of filesources/filesystem/ufilesystemfilesource.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 11-10-2020, 11:44:53 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Debian bullseye/sid -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 3700
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000427BFE in /usr/lib/doublecmd/doublecmd
+  $00000000004A94DF line 149, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004DCA96 line 2648, column 3 of fmain.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 11-10-2020, 11:45:19 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Debian bullseye/sid -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 3700
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00000000008B720B line 906, column 5 of platform/unix/ugvolume.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004A99C9 line 184, column 3 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A99FE line 198, column 1 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000439020 in /usr/lib/doublecmd/doublecmd
+  $00000000004A4F06 line 1934, column 3 of forms.pp in /usr/lib/doublecmd/doublecmd
+
+--------------- 31-03-2021, 09:29:20 ---------------
+| DC v0.9.10 beta Rev. 9640 -- x86_64-Linux-qt5
+| Debian bullseye/sid -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 328953
+Unhandled exception: EFileNotFound: File "" non trovato.
+  Stack trace:
+  $000000000088143F line 379, column 34 of filesources/filesystem/ufilesystemfilesource.pas in /usr/lib/doublecmd/doublecmd
+
+--------------- 11-11-2021, 08:53:49 ---------------
+| DC v1.0.0 beta Rev. 10 -- x86_64-Linux-qt5
+| Debian bookworm/sid -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 154110
+Unhandled exception: EListError: List index (9) out of bounds
+  Stack trace:
+  $000000000067F5B2 in /usr/lib/doublecmd/doublecmd
+
+
+--------------- 11-11-2021, 10:43:41 ---------------
+| DC v1.0.0 beta Rev. 10 -- x86_64-Linux-qt5
+| Debian bookworm/sid -- Qt 5.15.2, libQt5Pas 5.6.1 | PID 590641
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FEE905AE9E9 in /usr/lib/doublecmd/plugins/wcx/unrar/unrar.wcx
+
+

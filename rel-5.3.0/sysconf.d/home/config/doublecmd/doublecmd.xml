@@ -1,0 +1,2222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd DCVersion="1.0.1 beta" ConfigVersion="12">
+  <Configuration Save="True" SortOrder="0" TreeType="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+    <FolderTabs Save="True"/>
+  </Configuration>
+  <Colors>
+    <FileFilters/>
+    <Foreground>16777215</Foreground>
+    <Background>0</Background>
+    <Background2>0</Background2>
+    <Mark>255</Mark>
+    <Cursor>-2147483635</Cursor>
+    <CursorText>-2147483634</CursorText>
+    <UseInvertedSelection>True</UseInvertedSelection>
+    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <UseFrameCursor>False</UseFrameCursor>
+    <FreeSpaceIndicator>
+      <ForeColor>0</ForeColor>
+      <BackColor>16777215</BackColor>
+      <UseGradient>False</UseGradient>
+    </FreeSpaceIndicator>
+    <UseCursorBorder>False</UseCursorBorder>
+    <CursorBorderColor>-2147483635</CursorBorderColor>
+    <InactiveCursor>-2147483645</InactiveCursor>
+    <InactiveMark>128</InactiveMark>
+    <UseInactiveSelColor>False</UseInactiveSelColor>
+    <AllowOverColor>True</AllowOverColor>
+    <gBorderFrameWidth>1</gBorderFrameWidth>
+    <LogWindow>
+      <Info>8388608</Info>
+      <Error>255</Error>
+      <Success>32768</Success>
+    </LogWindow>
+    <PathLabel>
+      <ActiveColor>-2147483635</ActiveColor>
+      <ActiveFontColor>-2147483634</ActiveFontColor>
+      <InactiveColor>-2147483633</InactiveColor>
+      <InactiveFontColor>-2147483630</InactiveFontColor>
+    </PathLabel>
+  </Colors>
+  <Plugins>
+    <DsxPlugins/>
+    <WcxPlugins>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zip</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>735</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>lzma</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>bz2</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tbz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>gz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tgz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>cpio</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/cpio/cpio.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>deb</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/deb/deb.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rpm</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/rpm/rpm.wcx</Path>
+        <Flags>4</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>rar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/unrar/unrar.wcx</Path>
+        <Flags>607</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>tlz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>xz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>txz</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>95</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zipx</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>223</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>jar</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>990</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>zst</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
+        <Flags>91</Flags>
+      </WcxPlugin>
+    </WcxPlugins>
+    <WdxPlugins>
+      <WdxPlugin>
+        <Name>rpm_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/rpm_wdx/rpm_wdx.wdx</Path>
+        <DetectString>EXT="RPM"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>deb_wdx</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/deb_wdx/deb_wdx.wdx</Path>
+        <DetectString>EXT="DEB"</DetectString>
+      </WdxPlugin>
+      <WdxPlugin>
+        <Name>audioinfo</Name>
+        <Path>%COMMANDER_PATH%/plugins/wdx/audioinfo/audioinfo.wdx</Path>
+        <DetectString>(EXT="MP3") | (EXT="MP2") | (EXT="MP1") | (EXT="OGG") | (EXT="WMA") | (EXT="WAV") | (EXT="VQF") | (EXT="AAC") | (EXT="APE") | (EXT="MPC") | (EXT="FLAC") | (EXT="CDA") | (EXT="TTA") | (EXT="AC3") | (EXT="DTS") | (EXT="WV") | (EXT="WVC") | (EXT="OFR") | (EXT="OFS") | (EXT="M4A") | (EXT="MP4")</DetectString>
+      </WdxPlugin>
+    </WdxPlugins>
+    <WfxPlugins>
+      <WfxPlugin Enabled="True">
+        <Name>FTP</Name>
+        <Path>%commander_path%/plugins/wfx/ftp/ftp.wfx</Path>
+      </WfxPlugin>
+      <WfxPlugin Enabled="True">
+        <Name>Windows Network</Name>
+        <Path>%commander_path%/plugins/wfx/samba/samba.wfx</Path>
+      </WfxPlugin>
+    </WfxPlugins>
+    <WlxPlugins>
+      <WlxPlugin Enabled="True">
+        <Name>wlxMplayer</Name>
+        <Path>%commander_path%/plugins/wlx/wlxmplayer/wlxmplayer.wlx</Path>
+        <DetectString>(EXT="MPG")|(EXT="AVI")|(EXT="MPEG")|(EXT="FLV")</DetectString>
+      </WlxPlugin>
+    </WlxPlugins>
+    <TweakPluginWidth0>0</TweakPluginWidth0>
+    <TweakPluginHeight0>0</TweakPluginHeight0>
+    <TweakPluginWidth1>485</TweakPluginWidth1>
+    <TweakPluginHeight1>371</TweakPluginHeight1>
+    <TweakPluginWidth2>0</TweakPluginWidth2>
+    <TweakPluginHeight2>0</TweakPluginHeight2>
+    <TweakPluginWidth3>408</TweakPluginWidth3>
+    <TweakPluginHeight3>165</TweakPluginHeight3>
+    <TweakPluginWidth4>0</TweakPluginWidth4>
+    <TweakPluginHeight4>0</TweakPluginHeight4>
+    <AutoTweak>False</AutoTweak>
+    <WCXConfigViewMode>0</WCXConfigViewMode>
+    <PluginFilenameStyle>0</PluginFilenameStyle>
+    <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
+  </Plugins>
+  <Language>
+    <POFileName>doublecmd.it.po</POFileName>
+  </Language>
+  <Behaviours>
+    <GoToRoot>False</GoToRoot>
+    <ShowCurDirTitleBar>False</ShowCurDirTitleBar>
+    <ActiveRight>False</ActiveRight>
+    <RunInTerminalStayOpenCmd>x-terminal-emulator</RunInTerminalStayOpenCmd>
+    <RunInTerminalStayOpenParams>-e sh -c '{command}; echo -n Press ENTER to exit... ; read a'</RunInTerminalStayOpenParams>
+    <RunInTerminalCloseCmd>xterm</RunInTerminalCloseCmd>
+    <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
+    <JustRunTerminal>roxterm</JustRunTerminal>
+    <JustRunTermParams/>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
+    <LynxLike>True</LynxLike>
+    <FileSizeFormat>0</FileSizeFormat>
+    <OperationSizeFormat>0</OperationSizeFormat>
+    <HeaderSizeFormat>0</HeaderSizeFormat>
+    <FooterSizeFormat>0</FooterSizeFormat>
+    <FileSizeDigits>1</FileSizeDigits>
+    <HeaderDigits>1</HeaderDigits>
+    <FooterDigits>1</FooterDigits>
+    <OperationSizeDigits>1</OperationSizeDigits>
+    <PersonalizedByte>B</PersonalizedByte>
+    <PersonalizedKilo>KB</PersonalizedKilo>
+    <PersonalizedMega>MB</PersonalizedMega>
+    <PersonalizedGiga>GB</PersonalizedGiga>
+    <PersonalizedTera>TB</PersonalizedTera>
+    <MinimizeToTray>False</MinimizeToTray>
+    <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>0</Button>
+        <IconClick>0</IconClick>
+      </Selection>
+      <SingleClickStart>0</SingleClickStart>
+      <ScrollMode>1</ScrollMode>
+      <WheelScrollLines>3</WheelScrollLines>
+    </Mouse>
+    <AutoFillColumns>True</AutoFillColumns>
+    <AutoSizeColumn>0</AutoSizeColumn>
+    <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
+    <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
+    <DateTimeFormat>dd.mm.yy</DateTimeFormat>
+    <CutTextToColumnWidth>True</CutTextToColumnWidth>
+    <ExtendCellWidth>False</ExtendCellWidth>
+    <ShowSystemFiles>True</ShowSystemFiles>
+    <ListFilesInThread>True</ListFilesInThread>
+    <LoadIconsSeparately>True</LoadIconsSeparately>
+    <DelayLoadingTabs>True</DelayLoadingTabs>
+    <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
+    <DriveBlackList/>
+    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+  </Behaviours>
+  <Tools>
+    <Viewer Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Viewer>
+    <Editor Enabled="True">
+      <Path>geany</Path>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+    </Editor>
+    <Differ Enabled="False">
+      <Path/>
+      <Parameters/>
+      <RunInTerminal>False</RunInTerminal>
+      <KeepTerminalOpen>False</KeepTerminalOpen>
+      <FramePosAfterComp>0</FramePosAfterComp>
+    </Differ>
+  </Tools>
+  <Fonts>
+    <Main>
+      <Name>Droid Sans Mono</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+    <Editor>
+      <Name>Droid Sans Mono</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Editor>
+    <Viewer>
+      <Name>FreeMono</Name>
+      <Size>12</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </Viewer>
+    <Log>
+      <Name>Droid Sans Mono</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Log>
+    <ViewerBook>
+      <Name>FreeMono</Name>
+      <Size>12</Size>
+      <Style>1</Style>
+      <Quality>0</Quality>
+    </ViewerBook>
+    <Console>
+      <Name>Monospace</Name>
+      <Size>12</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Console>
+    <OptionsTree>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsTree>
+    <OptionsMain>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsMain>
+    <SearchResults>
+      <Name>default</Name>
+      <Size>9</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </SearchResults>
+    <PathEdit>
+      <Name>default</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </PathEdit>
+    <FunctionButtons>
+      <Name>default</Name>
+      <Size>8</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </FunctionButtons>
+    <TreeViewMenu>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </TreeViewMenu>
+  </Fonts>
+  <ToolTips>
+    <ShowToolTipMode>False</ShowToolTipMode>
+    <CustomFields/>
+    <ActualToolTipMode>0</ActualToolTipMode>
+    <ToolTipHideTimeOut>0</ToolTipHideTimeOut>
+  </ToolTips>
+  <Layout>
+    <MainMenu>True</MainMenu>
+    <ButtonBar Enabled="False">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+      <FilenameStyle>0</FilenameStyle>
+      <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+      <PathModifierElements>0</PathModifierElements>
+    </ButtonBar>
+    <MiddleBar Enabled="False">
+      <FlatIcons>True</FlatIcons>
+      <ButtonHeight>24</ButtonHeight>
+      <IconSize>16</IconSize>
+      <ShowCaptions>False</ShowCaptions>
+      <ReportErrorWithCommands>False</ReportErrorWithCommands>
+    </MiddleBar>
+    <DriveBar1>False</DriveBar1>
+    <DriveBar2>True</DriveBar2>
+    <DriveBarFlat>True</DriveBarFlat>
+    <DrivesListButton Enabled="False">
+      <ShowLabel>True</ShowLabel>
+      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFreeSpace>True</ShowFreeSpace>
+    </DrivesListButton>
+    <SeparateTree>False</SeparateTree>
+    <DirectoryTabs>True</DirectoryTabs>
+    <CurrentDirectory>True</CurrentDirectory>
+    <TabHeader>True</TabHeader>
+    <StatusBar>True</StatusBar>
+    <CmdLine>False</CmdLine>
+    <LogWindow>False</LogWindow>
+    <TermWindow>False</TermWindow>
+    <KeyButtons>False</KeyButtons>
+    <InterfaceFlat>False</InterfaceFlat>
+    <DriveFreeSpace>False</DriveFreeSpace>
+    <DriveIndicator>False</DriveIndicator>
+    <ProgressInMenuBar>False</ProgressInMenuBar>
+    <PanelOfOperationsInBackground>False</PanelOfOperationsInBackground>
+    <HorizontalFilePanels>False</HorizontalFilePanels>
+    <ShortFormatDriveInfo>True</ShortFormatDriveInfo>
+    <UppercaseDriveLetter>False</UppercaseDriveLetter>
+    <ShowColonAfterDrive>False</ShowColonAfterDrive>
+  </Layout>
+  <FileOperations>
+    <BufferSize>524288</BufferSize>
+    <UseMmapInSearch>False</UseMmapInSearch>
+    <PartialNameSearch>True</PartialNameSearch>
+    <WipePassNumber>1</WipePassNumber>
+    <DropReadOnlyFlag>False</DropReadOnlyFlag>
+    <ProcessComments>False</ProcessComments>
+    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
+    <UseTrash>False</UseTrash>
+    <SkipFileOpError>False</SkipFileOpError>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
+    <OverwriteFolder>False</OverwriteFolder>
+    <Options>
+      <Symlink>0</Symlink>
+      <CorrectLinks>False</CorrectLinks>
+      <FileExists>0</FileExists>
+      <DirectoryExists>0</DirectoryExists>
+      <CheckFreeSpace>False</CheckFreeSpace>
+      <SetPropertyError>2</SetPropertyError>
+      <ReserveSpace>False</ReserveSpace>
+      <CopyAttributes>True</CopyAttributes>
+      <CopyTime>True</CopyTime>
+      <CopyOwnership>True</CopyOwnership>
+      <CopyPermissions>False</CopyPermissions>
+      <ExcludeEmptyTemplateDirectories>True</ExcludeEmptyTemplateDirectories>
+      <Verify>False</Verify>
+      <CopyOnWrite>2</CopyOnWrite>
+      <CopyXattributes>True</CopyXattributes>
+    </Options>
+    <ProgressKind>0</ProgressKind>
+    <Confirmations>15</Confirmations>
+    <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
+    <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
+    <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
+    <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
+    <DragAndDropTextSimpletextDesireLevel>3</DragAndDropTextSimpletextDesireLevel>
+    <DragAndDropAskFormatEachTime>False</DragAndDropAskFormatEachTime>
+    <DragAndDropTextAutoFilename>False</DragAndDropTextAutoFilename>
+    <DragAndDropSaveUnicodeTextInUFT8>True</DragAndDropSaveUnicodeTextInUFT8>
+    <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
+    <HashBufferSize>8388608</HashBufferSize>
+    <SearchDefaultTemplate/>
+    <AutoExtractOpenMask/>
+    <InitiallyClearFileMask>True</InitiallyClearFileMask>
+    <NewSearchClearFiltersAction>0</NewSearchClearFiltersAction>
+    <ShowMenuBarInFindFiles>True</ShowMenuBarInFindFiles>
+    <Extract>
+      <Overwrite>False</Overwrite>
+    </Extract>
+    <LongNameAlert>True</LongNameAlert>
+    <MultiRename>
+      <MulRenShowMenuBarOnTop>True</MulRenShowMenuBarOnTop>
+      <MulRenInvalidCharReplacement>.</MulRenInvalidCharReplacement>
+      <MulRenLaunchBehavor>0</MulRenLaunchBehavor>
+      <MulRenExitModifiedPreset>0</MulRenExitModifiedPreset>
+      <MulRenSaveRenamingLog>0</MulRenSaveRenamingLog>
+      <MulRenLogFilename>%DC_CONFIG_PATH%/multirename.log</MulRenLogFilename>
+      <MultRenDailyIndividualDirLog>True</MultRenDailyIndividualDirLog>
+      <MulRenFilenameWithFullPathInLog>False</MulRenFilenameWithFullPathInLog>
+      <MulRenPathRangeSeparator>- </MulRenPathRangeSeparator>
+    </MultiRename>
+  </FileOperations>
+  <Tabs>
+    <Options>49937</Options>
+    <CharacterLimit>32</CharacterLimit>
+    <Position>0</Position>
+    <OpenedTabs>
+      <Left>
+        <ActiveTab>3</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>2</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="VA-Real_Audiophile_Jazz_2019_DR16_FLAC_vtwin88cube">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-Real_Audiophile_Jazz_2019_DR16_FLAC_vtwin88cube/</Path>
+                  <Path Filename="VA-The_Greatest_Jazz_Legends-19_Original_Albums_10CD_BoxSet_2015_FLAC_">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="CD01._Miles_Davis_1959-Miles_Davis_1960_">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-The_Greatest_Jazz_Legends-19_Original_Albums_10CD_BoxSet_2015_FLAC_/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-The_Greatest_Jazz_Legends-19_Original_Albums_10CD_BoxSet_2015_FLAC_/CD01._Miles_Davis_1959-Miles_Davis_1960_/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-The_Greatest_Jazz_Legends-19_Original_Albums_10CD_BoxSet_2015_FLAC_/</Path>
+                  <Path Filename="VA-Titans_Of_Smooth_Jazz_2016_FLAC">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-Titans_Of_Smooth_Jazz_2016_FLAC/</Path>
+                  <Path Filename="VA_100_Years_of_Jazz">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="CD_01_Roots_and_Beginnings">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/CD_01_Roots_and_Beginnings/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="mtp">/home/popi/media/</Path>
+                  <Path Filename="Memoria interna condivisa">/home/popi/media/mtp/</Path>
+                  <Path Filename="Music">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="amazonmp3">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/amazonmp3/</Path>
+                  <Path Filename="WhatsApp">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="Media">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/</Path>
+                  <Path Filename="WallPaper">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/Media/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/Media/WallPaper/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/Media/</Path>
+                  <Path Filename="Databases">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/Databases/</Path>
+                  <Path Filename="Backups">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/Backups/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/WhatsApp/</Path>
+                  <Path Filename="Telegram">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Telegram/</Path>
+                  <Path Filename="Ringtones">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Ringtones/</Path>
+                  <Path Filename="Podcasts">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Podcasts/</Path>
+                  <Path Filename="Pictures">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Pictures/</Path>
+                  <Path Filename="Notifications">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Notifications/</Path>
+                  <Path Filename="Music">/home/popi/media/mtp/Memoria interna condivisa/</Path>
+                  <Path Filename=".thumbnails">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/.thumbnails/</Path>
+                  <Path Filename="VA_100_Years_of_Jazz">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="CD_01_Roots_and_Beginnings">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/CD_01_Roots_and_Beginnings/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="VA-Real_Audiophile_Jazz_2019_DR16_FLAC_vtwin88cube">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/VA-Real_Audiophile_Jazz_2019_DR16_FLAC_vtwin88cube/</Path>
+                  <Path Filename="..">/home/popi/media/mtp/Memoria interna condivisa/Music/</Path>
+                  <Path Filename="..">/home/popi/media/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Full_Discography_Mp3_320_kbps_Pack_1/</Path>
+                  <Path Filename="Miles_Davis-Kind_Of_Blue-Full_Remastered_Album_320Kb_Mp3-By_Speedtriple">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="Miles_Davis-Kind_Of_Blue_full_remastered_album_320kb_mp3_by_Speedtriple">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_Of_Blue-Full_Remastered_Album_320Kb_Mp3-By_Speedtriple/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_Of_Blue-Full_Remastered_Album_320Kb_Mp3-By_Speedtriple/Miles_Davis-Kind_Of_Blue_full_remastered_album_320kb_mp3_by_Speedtriple/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_Of_Blue-Full_Remastered_Album_320Kb_Mp3-By_Speedtriple/</Path>
+                  <Path Filename="Miles_Davis-Kind_Of_Blue_full_remastered_album_320kb_mp3_by_Speedtriple">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_Of_Blue_full_remastered_album_320kb_mp3_by_Speedtriple/</Path>
+                  <Path Filename="Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="Music">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/</Path>
+                  <Path Filename="Miles_Davis">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/Music/</Path>
+                  <Path Filename="1._Kind_of_Blue-1959-2009-CD_1">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/Music/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/Music/Miles_Davis/1._Kind_of_Blue-1959-2009-CD_1/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/Music/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/Music/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Kind_of_Blue_1959-50th_Anniversary_Collector_s_Edition_2009-2CD-320Kbps-Jazz_#_DrBN/</Path>
+                  <Path Filename="Miles_Davis-Tutu-1986,_Dvd-A_Stereo_Rip,_Flac,_24_Bit_96_Khz-">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu-1986,_Dvd-A_Stereo_Rip,_Flac,_24_Bit_96_Khz-/</Path>
+                  <Path Filename="Miles_Davis-Tutu_Mp3_Full_Album">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="Miles.Davis-Tutu.EAC.Ogg.Q8+Covers.by.INAQUI._www.eshock.cc_">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/</Path>
+                  <Path Filename="Miles_Davis">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/Miles.Davis-Tutu.EAC.Ogg.Q8+Covers.by.INAQUI._www.eshock.cc_/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/Miles.Davis-Tutu.EAC.Ogg.Q8+Covers.by.INAQUI._www.eshock.cc_/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/Miles.Davis-Tutu.EAC.Ogg.Q8+Covers.by.INAQUI._www.eshock.cc_/</Path>
+                  <Path Filename="Miles_Davis-Tutu_MP3_full_Album">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/Miles_Davis-Tutu_MP3_full_Album/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Tutu_Mp3_Full_Album/</Path>
+                  <Path Filename="Miles_Davis-Wayne_Shorter,_Herbie_Hancock,_Ron_Carter,_Tony_Williams-Disc_1-The_Complete_Live_At_The_Plagged_Nickel_1965_December_22_First_Set">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis-Wayne_Shorter,_Herbie_Hancock,_Ron_Carter,_Tony_Williams-Disc_1-The_Complete_Live_At_The_Plagged_Nickel_1965_December_22_First_Set/</Path>
+                  <Path Filename="Miles_Davis_With_Keith_Jarrett,_Dave_Holland-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitally_Remastered-192Kbps-13_Cd_Set">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="Miles_Davis-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitaly_Remastered-192Kbps-13_CD_Set-mp3">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis_With_Keith_Jarrett,_Dave_Holland-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitally_Remastered-192Kbps-13_Cd_Set/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis_With_Keith_Jarrett,_Dave_Holland-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitally_Remastered-192Kbps-13_Cd_Set/Miles_Davis-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitaly_Remastered-192Kbps-13_CD_Set-mp3/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis_With_Keith_Jarrett,_Dave_Holland-The_Complete_Live_Fusion_Rock_Recordings_1970-75-Digitally_Remastered-192Kbps-13_Cd_Set/</Path>
+                  <Path Filename="Miles_Davis_and_Charlie_Parker">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis_and_Charlie_Parker/</Path>
+                  <Path Filename="Miles_Davis_and_Quincy_Jones-Live_At_Montreux-1993-">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/Miles_Davis_and_Quincy_Jones-Live_At_Montreux-1993-/</Path>
+                  <Path Filename="The_complete_birth_of_Cool">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/The_complete_birth_of_Cool/</Path>
+                  <Path Filename="spazz">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/spazz/</Path>
+                  <Path Filename="varies">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/varies/</Path>
+                  <Path Filename="(1950) - Birth of the Cool(Blue Note)">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/(1950) - Birth of the Cool(Blue Note)/</Path>
+                  <Path Filename="(1950) - Birth of the Cool(Blue Note)">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/(1950) - Birth of the Cool(Blue Note)/</Path>
+                  <Path Filename="(1950) - Birth of the Cool(Blue Note)">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/(1950) - Birth of the Cool(Blue Note)/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/Miles_Davis/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/music/jazz/</Path>
+                  <Path Filename="jazz">/media/popi/mmedia1/music/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Mike_Theodore_orchestra/</Path>
+                  <Path Filename="Montreal_Sound">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Montreal_Sound/</Path>
+                  <Path Filename="O_Jays">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/O_Jays/</Path>
+                  <Path Filename="Odissey">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Odissey/</Path>
+                  <Path Filename="Orlando_Riva_Sound">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Orlando_Riva_Sound/</Path>
+                  <Path Filename="Ottawan">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Ottawan/</Path>
+                  <Path Filename="Patric_Hernandez">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Patric_Hernandez/</Path>
+                  <Path Filename="Patric_Juvet">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Patric_Juvet/</Path>
+                  <Path Filename="People_s_choice">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/People_s_choice/</Path>
+                  <Path Filename="Peter_Brown">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Peter_Brown/</Path>
+                  <Path Filename="Peter_Jaques_band">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Peter_Jaques_band/</Path>
+                  <Path Filename="Philadelphia_International_all_stars">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Philadelphia_International_all_stars/</Path>
+                  <Path Filename="Players_Association">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Players_Association/</Path>
+                  <Path Filename="Queen_Samantha">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Queen_Samantha/</Path>
+                  <Path Filename="Quincy_Jones">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Quincy_Jones/</Path>
+                  <Path Filename="Real_Thing">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Real_Thing/</Path>
+                  <Path Filename="Rick_Dees">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Rick_Dees/</Path>
+                  <Path Filename="Ritchie_Family">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Ritchie_Family/</Path>
+                  <Path Filename="Roberta_Kelly">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Roberta_Kelly/</Path>
+                  <Path Filename="Roberta_Kelly">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/</Path>
+                  <Path Filename="..">/home/popi/media/</Path>
+                  <Path Filename="Downloads">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/Downloads/</Path>
+                  <Path Filename=".config">/home/popi/</Path>
+                  <Path Filename="zandronum">/home/popi/.config/</Path>
+                  <Path Filename="..">/home/popi/.config/zandronum/</Path>
+                  <Path Filename="..">/home/popi/.config/</Path>
+                  <Path Filename="libri">/home/popi/</Path>
+                  <Path Filename="">/home/popi/libri/</Path>
+                  <Path Filename="Downloads">/home/popi/</Path>
+                  <Path Filename="zk-v0.8.0-linux-amd64.tar.gz">/home/popi/Downloads/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="webm">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/webm/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="concerti_radio_france">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/concerti_radio_france/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp4/</Path>
+                  <Path Filename="mp3">/home/popi/Downloads/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="mkv">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/mkv/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/mp4/</Path>
+                  <Path Filename="webm">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/webm/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/</Path>
+                  <Path Filename="[TS]2020-11-18.21.00.03-TOPcrime-35">/home/popi/Downloads/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp4/[TS]2020-11-18.21.00.03-TOPcrime-35/</Path>
+                  <Path Filename="[TS]2020-11-18.21.00.03-TOPcrime-35">/home/popi/Downloads/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp4/[TS]2020-11-18.21.00.03-TOPcrime-35/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp4/</Path>
+                  <Path Filename="pdf">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/pdf/</Path>
+                  <Path Filename="rust">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/rust/</Path>
+                  <Path Filename="mp3">/home/popi/Downloads/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/mp4/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="mp4">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp4/</Path>
+                  <Path Filename="zip">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/zip/</Path>
+                  <Path Filename="pdf">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/pdf/</Path>
+                  <Path Filename="pdf">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/pdf/</Path>
+                  <Path Filename="mp3">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/mp3/</Path>
+                  <Path Filename="..">/home/popi/Downloads/</Path>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="dart">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/</Path>
+                  <Path Filename=".local">/home/popi/</Path>
+                  <Path Filename="bin">/home/popi/.local/</Path>
+                  <Path Filename="..">/home/popi/.local/bin/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="dart">/home/popi/dart/</Path>
+                  <Path Filename="ha">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/ha/</Path>
+                  <Path Filename="[TS]2020-07-20.21.00.03-Rai 3 TGR Lombard-72">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-07-20.21.00.03-Rai 3 TGR Lombard-72/</Path>
+                  <Path Filename="[TS]2020-07-22.21.00.01-Cine34-66">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-07-22.21.00.01-Cine34-66/</Path>
+                  <Path Filename="[TS]2020-07-28.21.15.02-NOVE-10">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-07-28.21.15.02-NOVE-10/</Path>
+                  <Path Filename="[TS]2020-08-11.22.20.01-Rai Radio3- 2">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-08-11.22.20.01-Rai Radio3- 2/</Path>
+                  <Path Filename="[TS]2020-10-24.21.00.04-TOPcrime-71">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-10-24.21.00.04-TOPcrime-71/</Path>
+                  <Path Filename="[TS]2020-11-13.08.50.16-Rai Radio3-52">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2020-11-13.08.50.16-Rai Radio3-52/</Path>
+                  <Path Filename="[TS]2021-03-04.20.31.44-20 Mediaset- 7">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/[TS]2021-03-04.20.31.44-20 Mediaset- 7/</Path>
+                  <Path Filename="HBPVR">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/HBPVR/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/</Path>
+                  <Path Filename="mp3">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/mp3/</Path>
+                  <Path Filename="temp">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/temp/</Path>
+                  <Path Filename="jazz">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/jazz/</Path>
+                  <Path Filename="prog">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/prog/</Path>
+                  <Path Filename="Deep Red (1975) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 Italian r00t)">/home/popi/dart/</Path>
+                  <Path Filename="Featurettes">/home/popi/dart/Deep Red (1975) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 Italian r00t)/</Path>
+                  <Path Filename="..">/home/popi/dart/Deep Red (1975) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 Italian r00t)/Featurettes/</Path>
+                  <Path Filename="..">/home/popi/dart/Deep Red (1975) + Extras (1080p BluRay x265 HEVC 10bit AAC 1.0 Italian r00t)/</Path>
+                  <Path Filename="Summer.of.Soul.Or.When.the.Revolution.Could.Not.Be.Televised.2021.720p.WEBRip.800MB.x264-GalaxyRG[TGx]">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/Summer.of.Soul.Or.When.the.Revolution.Could.Not.Be.Televised.2021.720p.WEBRip.800MB.x264-GalaxyRG[TGx]/</Path>
+                  <Path Filename="prog">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/prog/</Path>
+                  <Path Filename="prog">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/prog/</Path>
+                  <Path Filename="..">/home/popi/dart/</Path>
+                  <Path Filename="libri">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/libri/</Path>
+                  <Path Filename="pdf">/home/popi/</Path>
+                  <Path Filename="Letture">/home/popi/pdf/</Path>
+                  <Path Filename="computing">/home/popi/pdf/Letture/</Path>
+                  <Path Filename="">/home/popi/pdf/Letture/computing/</Path>
+                  <Path Filename="..">/home/popi/pdf/Letture/</Path>
+                  <Path Filename="Letture">/home/popi/pdf/</Path>
+                  <Path Filename="..">/home/popi/pdf/Letture/</Path>
+                  <Path Filename="Letture">/home/popi/pdf/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Eric Clapton - Rare Tracks [4CD] (2015) FLAC/</Path>
+                  <Path Filename="Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV">/mnt/disco2/repo/mp3/</Path>
+                  <Path Filename="Album In Studio (1969 - 1983)">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/</Path>
+                  <Path Filename="1976 - Knights In White Satin">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1976 - Knights In White Satin/</Path>
+                  <Path Filename="1977 - From Here To Eternity">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1977 - From Here To Eternity/</Path>
+                  <Path Filename="1978 - Love s in You Love s in Me">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1978 - Love s in You Love s in Me/</Path>
+                  <Path Filename="1979 - E=MC2">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1979 - E=MC2/</Path>
+                  <Path Filename="1983 - Solitary Men">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1983 - Solitary Men/</Path>
+                  <Path Filename="1976 - Knights In White Satin">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/1976 - Knights In White Satin/</Path>
+                  <Path Filename="1976 - Knights In White Satin">/mnt/disco2/repo/mp3/Giorgio Moroder - Discography [16 Albums Remastered] (1969 - 1984) BY NEV/Album In Studio (1969 - 1983)/</Path>
+                  <Path Filename="..">/mnt/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="popi">/home/</Path>
+                  <Path Filename="deb1807">/home/popi/</Path>
+                  <Path Filename="rel-4.0.0">/home/popi/deb1807/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.0.0/</Path>
+                  <Path Filename="rel-4.1.0">/home/popi/deb1807/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="etc">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/</Path>
+                  <Path Filename="apt">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="apt.conf.d">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/apt/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/apt/apt.conf.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/apt/</Path>
+                  <Path Filename="default">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/default/</Path>
+                  <Path Filename="initramfs-tools">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/initramfs-tools/</Path>
+                  <Path Filename="modprobe.d">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/modprobe.d/</Path>
+                  <Path Filename="default">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/default/</Path>
+                  <Path Filename="default">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/default/</Path>
+                  <Path Filename="modprobe.d">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/modprobe.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/etc/</Path>
+                  <Path Filename="root">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/root/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="rel-4.1.0">/home/popi/deb1807/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="medico">/home/popi/media/1807/</Path>
+                  <Path Filename="..">/home/popi/media/1807/medico/</Path>
+                  <Path Filename="Scrittore">/home/popi/media/1807/</Path>
+                  <Path Filename="popo">/home/popi/media/1807/Scrittore/</Path>
+                  <Path Filename="..">/home/popi/media/1807/Scrittore/popo/</Path>
+                  <Path Filename="..">/home/popi/media/1807/Scrittore/</Path>
+                  <Path Filename="1807_new">/home/popi/media/1807/</Path>
+                  <Path Filename="Documenti">/home/popi/media/1807/1807_new/</Path>
+                  <Path Filename="Salute">/home/popi/media/1807/1807_new/Documenti/</Path>
+                  <Path Filename="Paolo Faustini - Dati paziente.odt">/home/popi/media/1807/1807_new/Documenti/Salute/</Path>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="dart">/home/popi/dart/</Path>
+                  <Path Filename="zawinul">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/zawinul/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="media">/</Path>
+                  <Path Filename="cdrom">/media/</Path>
+                  <Path Filename="VIDEO_TS">/media/cdrom/</Path>
+                  <Path Filename="..">/media/cdrom/VIDEO_TS/</Path>
+                  <Path Filename="..">/media/cdrom/</Path>
+                  <Path Filename="..">/media/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="popi">/home/</Path>
+                  <Path Filename=".config">/home/popi/</Path>
+                  <Path Filename="openbox">/home/popi/.config/</Path>
+                  <Path Filename="..">/home/popi/.config/openbox/</Path>
+                  <Path Filename="..">/home/popi/.config/</Path>
+                  <Path Filename=".cache">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/.cache/</Path>
+                  <Path Filename=".config">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/.config/</Path>
+                  <Path Filename="Telegram Desktop">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/Telegram Desktop/</Path>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="George Benson - It's Uptown (1966)">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/George Benson - It's Uptown (1966)/</Path>
+                  <Path Filename="Squid.Game.S01.COMPLETE.KOREAN.720p.NF.WEBRip.x264-GalaxyTV[TGx]">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/Squid.Game.S01.COMPLETE.KOREAN.720p.NF.WEBRip.x264-GalaxyTV[TGx]/</Path>
+                  <Path Filename="The Beatles - Let It Be">/home/popi/dart/</Path>
+                  <Path Filename="VIDEO_TS">/home/popi/dart/The Beatles - Let It Be/</Path>
+                  <Path Filename="..">/home/popi/dart/The Beatles - Let It Be/VIDEO_TS/</Path>
+                  <Path Filename="..">/home/popi/dart/The Beatles - Let It Be/</Path>
+                  <Path Filename="Traffic - 1970 - John Barleycorn Must Die (2014 HDtracks) [FLAC@96khz24bit]">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/Traffic - 1970 - John Barleycorn Must Die (2014 HDtracks) [FLAC@96khz24bit]/</Path>
+                  <Path Filename="dart">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/dart/</Path>
+                  <Path Filename="concerti_radio_france">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/concerti_radio_france/</Path>
+                  <Path Filename="..">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/media/mmedia2/spostare/Music/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/spostare/</Path>
+                  <Path Filename="isos">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="android">/home/popi/media/mmedia2/isos/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/android/</Path>
+                  <Path Filename="office">/home/popi/media/mmedia2/isos/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/office/</Path>
+                  <Path Filename="Windows">/home/popi/media/mmedia2/isos/</Path>
+                  <Path Filename="ten">/home/popi/media/mmedia2/isos/Windows/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/Windows/ten/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/Windows/</Path>
+                  <Path Filename="android">/home/popi/media/mmedia2/isos/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/android/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/isos/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="mmedia2">/home/popi/media/</Path>
+                  <Path Filename="concerti">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/concerti/</Path>
+                  <Path Filename="pdf">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="vedere26">/home/popi/media/mmedia2/pdf/</Path>
+                  <Path Filename="_da_vedere">/home/popi/media/mmedia2/pdf/vedere26/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/vedere26/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/vedere26/</Path>
+                  <Path Filename="vedere27">/home/popi/media/mmedia2/pdf/</Path>
+                  <Path Filename="">/home/popi/media/mmedia2/pdf/vedere27/</Path>
+                  <Path Filename="pdf">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="">/home/popi/media/mmedia2/pdf/</Path>
+                  <Path Filename="_da_spostare">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_spostare/</Path>
+                  <Path Filename="_da_vedere">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="Dream_Theater">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/Dream_Theater/</Path>
+                  <Path Filename="Sum_41">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/Sum_41/</Path>
+                  <Path Filename="Voodoo-2000">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/Voodoo-2000/</Path>
+                  <Path Filename="Voodoo-2000">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/Voodoo-2000/</Path>
+                  <Path Filename="Dream_Theater">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/Dream_Theater/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/</Path>
+                  <Path Filename="media">/home/popi/</Path>
+                  <Path Filename="mmedia2">/home/popi/media/</Path>
+                  <Path Filename="_da_vedere">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="jazz">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/_da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/</Path>
+                  <Path Filename="mmedia2">/home/popi/media/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="2016">/home/popi/media/mmedia1/music/Bootleg/SSR_Rete_Due/</Path>
+                  <Path Filename="RSI ReteDue - Albin Brun Alpin Ensamble - Bugge Wesseltoft (new conception of jazz) - Root Down Orchestra (Tommy Meier) - FestHalle Willisau.flac">/home/popi/media/mmedia1/music/Bootleg/SSR_Rete_Due/2016/</Path>
+                  <Path Filename="..">/home/popi/media/</Path>
+                  <Path Filename="..">/home/popi/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="media">/</Path>
+                  <Path Filename="popi">/media/</Path>
+                  <Path Filename="mmedia1">/media/popi/</Path>
+                  <Path Filename="..">/media/popi/mmedia1/</Path>
+                  <Path Filename="mmedia2">/media/popi/</Path>
+                  <Path Filename="pdf">/media/popi/mmedia2/</Path>
+                  <Path Filename="vedere24">/media/popi/mmedia2/pdf/</Path>
+                  <Path Filename="Informatica">/media/popi/mmedia2/pdf/vedere24/</Path>
+                  <Path Filename="Multicore">/media/popi/mmedia2/pdf/vedere24/Informatica/</Path>
+                  <Path Filename="UCAM-CL-TR-832.pdf">/media/popi/mmedia2/pdf/vedere24/Informatica/Multicore/</Path>
+                  <Path Filename="..">/media/popi/mmedia2/</Path>
+                  <Path Filename="mmedia2">/media/popi/</Path>
+                  <Path Filename="pdf">/media/popi/mmedia2/</Path>
+                  <Path Filename="vedere24">/media/popi/mmedia2/pdf/</Path>
+                  <Path Filename="Informatica">/media/popi/mmedia2/pdf/vedere24/</Path>
+                  <Path Filename="Multicore">/media/popi/mmedia2/pdf/vedere24/Informatica/</Path>
+                  <Path Filename="UCAM-CL-TR-832.pdf">/media/popi/mmedia2/pdf/vedere24/Informatica/Multicore/</Path>
+                  <Path Filename="..">/media/popi/</Path>
+                  <Path Filename="..">/media/</Path>
+                  <Path Filename="etc">/</Path>
+                  <Path Filename="..">/etc/</Path>
+                  <Path Filename="usr">/</Path>
+                  <Path Filename="share">/usr/</Path>
+                  <Path Filename="gcc">/usr/share/</Path>
+                  <Path Filename="python">/usr/share/gcc/</Path>
+                  <Path Filename="libstdcxx">/usr/share/gcc/python/</Path>
+                  <Path Filename="..">/usr/share/gcc/python/libstdcxx/</Path>
+                  <Path Filename="..">/usr/share/gcc/python/</Path>
+                  <Path Filename="..">/usr/share/gcc/</Path>
+                  <Path Filename="GConf">/usr/share/</Path>
+                  <Path Filename="gsettings">/usr/share/GConf/</Path>
+                  <Path Filename="..">/usr/share/GConf/gsettings/</Path>
+                  <Path Filename="..">/usr/share/GConf/</Path>
+                  <Path Filename="..">/usr/share/</Path>
+                  <Path Filename="..">/usr/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="popi">/home/</Path>
+                  <Path Filename=".config">/home/popi/</Path>
+                  <Path Filename="rclone">/home/popi/.config/</Path>
+                  <Path Filename="..">/home/popi/.config/rclone/</Path>
+                  <Path Filename="rofi">/home/popi/.config/</Path>
+                  <Path Filename="..">/home/popi/.config/rofi/</Path>
+                  <Path Filename="..">/home/popi/.config/</Path>
+                  <Path Filename="ly">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/ly/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Titans_Of_Smooth_Jazz_2016_FLAC/</Path>
+                  <Path Filename="VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube/</Path>
+                  <Path Filename="VA_100_Years_of_Jazz">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="CD_01_Roots_and_Beginnings">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_01_Roots_and_Beginnings/</Path>
+                  <Path Filename="CD_02_New_Orleans-Chicago-New_York">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_02_New_Orleans-Chicago-New_York/</Path>
+                  <Path Filename="CD_03_White_Bands-Chicago-Dixieland">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_03_White_Bands-Chicago-Dixieland/</Path>
+                  <Path Filename="CD_04_Swing-Kansas_City">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_04_Swing-Kansas_City/</Path>
+                  <Path Filename="CD_05_Swing_into_Bebop">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_05_Swing_into_Bebop/</Path>
+                  <Path Filename="CD_06_The_Bebop_Era">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_06_The_Bebop_Era/</Path>
+                  <Path Filename="CD_07_Cool_Jazz-West_Coast">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_07_Cool_Jazz-West_Coast/</Path>
+                  <Path Filename="CD_08_Hardbop-Soul_Jazz">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_08_Hardbop-Soul_Jazz/</Path>
+                  <Path Filename="CD_09_Mainstream-Dixieland_Revival">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_09_Mainstream-Dixieland_Revival/</Path>
+                  <Path Filename="CD_10_Avantgarde-Free_Jazz">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_10_Avantgarde-Free_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="VA_100_Years_of_Jazz">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="CD_10_Avantgarde-Free_Jazz">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/CD_10_Avantgarde-Free_Jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="VA-Titans_Of_Smooth_Jazz_2016_FLAC">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Titans_Of_Smooth_Jazz_2016_FLAC/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="zz3">/mnt/disco2/repo/</Path>
+                  <Path Filename="VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_/</Path>
+                  <Path Filename="VA-Drums_N_Jazz_All_Tracks_Remastered_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Drums_N_Jazz_All_Tracks_Remastered_Mp3_320kbps_PMEDIA_/</Path>
+                  <Path Filename="VA-Jazz_Break_The_Best_Of_Contemporary_Smooth_Jazz-2007-FLAC-vtwin88cube">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Jazz_Break_The_Best_Of_Contemporary_Smooth_Jazz-2007-FLAC-vtwin88cube/</Path>
+                  <Path Filename="Top_50_Jazz_Classics-The_World_s_50_Best_Ever_Smooth_Jazz_Essentials_Mp3_Songs_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/Top_50_Jazz_Classics-The_World_s_50_Best_Ever_Smooth_Jazz_Essentials_Mp3_Songs_PMEDIA_/</Path>
+                  <Path Filename="VA-50_Best_of_Blue_Note-5CD-BOX_2011">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-50_Best_of_Blue_Note-5CD-BOX_2011/</Path>
+                  <Path Filename="VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_/</Path>
+                  <Path Filename="VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-100_Jazz_2021_Mp3_320kbps_PMEDIA_/</Path>
+                  <Path Filename="VA-Drums_N_Jazz_All_Tracks_Remastered_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/zz3/VA-Drums_N_Jazz_All_Tracks_Remastered_Mp3_320kbps_PMEDIA_/</Path>
+                  <Path Filename="VA-Drums_N_Jazz_All_Tracks_Remastered_Mp3_320kbps_PMEDIA_">/mnt/disco2/repo/zz3/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/U/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="Biblio">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="ALIENS_Tutte_le_copertine_dei_fumetti_italiani">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/ALIENS_Tutte_le_copertine_dei_fumetti_italiani/</Path>
+                  <Path Filename="Avince,_versioni_originali">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/Avince,_versioni_originali/</Path>
+                  <Path Filename="Avince,_versioni_originali">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/Avince,_versioni_originali/</Path>
+                  <Path Filename="copertine">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/copertine/</Path>
+                  <Path Filename="details">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/details/</Path>
+                  <Path Filename="images">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/images/</Path>
+                  <Path Filename="immagini_del_libro_originale">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/immagini_del_libro_originale/</Path>
+                  <Path Filename="per_ebook_reader">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/per_ebook_reader/</Path>
+                  <Path Filename="per_ebook_reeder">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/per_ebook_reeder/</Path>
+                  <Path Filename="per_ebookreader">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/per_ebookreader/</Path>
+                  <Path Filename="per_ebookreeder">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/per_ebookreeder/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="Biblio">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="Biblio">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="A">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/A/</Path>
+                  <Path Filename="B">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/</Path>
+                  <Path Filename="B">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="B8LPW7~Q">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/B8LPW7~Q/</Path>
+                  <Path Filename="BBIG3T~G">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/BBIG3T~G/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/</Path>
+                  <Path Filename="A">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/A/</Path>
+                  <Path Filename="0-9">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/0-9/</Path>
+                  <Path Filename="B">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/B/</Path>
+                  <Path Filename="C">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/C/</Path>
+                  <Path Filename="D">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/D/</Path>
+                  <Path Filename="D">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Left>
+      <Right>
+        <ActiveTab>3</ActiveTab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>2</Direction>
+                <Function>7</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="rel-3.4.2">/home/popi/deb1807/</Path>
+                  <Path Filename="packages">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/packages/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/1_sysconf.d/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/1_sysconf.d/</Path>
+                  <Path Filename="8_configurazioni_utente.d">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="doublecmd">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/doublecmd/</Path>
+                  <Path Filename="dunst">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/dunst/</Path>
+                  <Path Filename="fbpanel">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/fbpanel/</Path>
+                  <Path Filename="lilyterm">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/lilyterm/</Path>
+                  <Path Filename="obdevil">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/obdevil/</Path>
+                  <Path Filename="obdevil">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/obdevil/</Path>
+                  <Path Filename="openbox">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/openbox/</Path>
+                  <Path Filename="xfe">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/xfe/</Path>
+                  <Path Filename="zim">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/zim/</Path>
+                  <Path Filename="xfe">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/xfe/</Path>
+                  <Path Filename="zim">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/zim/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_configurazioni_utente.d/</Path>
+                  <Path Filename="8_pipe_menus.d">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/8_pipe_menus.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-3.4.2/</Path>
+                  <Path Filename="..">/home/popi/deb1807/</Path>
+                  <Path Filename="Downloads">/home/popi/</Path>
+                  <Path Filename="pdf">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/pdf/</Path>
+                  <Path Filename="rust">/home/popi/Downloads/</Path>
+                  <Path Filename="..">/home/popi/Downloads/rust/</Path>
+                  <Path Filename="..">/home/popi/Downloads/</Path>
+                  <Path Filename="pdf">/home/popi/</Path>
+                  <Path Filename="Letture">/home/popi/pdf/</Path>
+                  <Path Filename="..">/home/popi/pdf/Letture/</Path>
+                  <Path Filename="Scritture">/home/popi/pdf/</Path>
+                  <Path Filename="..">/home/popi/pdf/Scritture/</Path>
+                  <Path Filename="..">/home/popi/pdf/</Path>
+                  <Path Filename="pCloudDrive">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/pCloudDrive/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/1_sysconf.d/</Path>
+                  <Path Filename="packages">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/packages/</Path>
+                  <Path Filename="8_configurazioni_utente.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="htop">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/htop/</Path>
+                  <Path Filename="menus">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="applications-merged">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/applications-merged/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/</Path>
+                  <Path Filename="neofetch">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/neofetch/</Path>
+                  <Path Filename="openbox">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/openbox/</Path>
+                  <Path Filename="xfe">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/xfe/</Path>
+                  <Path Filename="openbox">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/openbox/</Path>
+                  <Path Filename="openbox">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="packages">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/packages/</Path>
+                  <Path Filename="8_pipe_menus.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_pipe_menus.d/</Path>
+                  <Path Filename="8_configurazioni_utente.d">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="doublecmd">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/doublecmd/</Path>
+                  <Path Filename="dunst">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/dunst/</Path>
+                  <Path Filename="fbpanel">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/fbpanel/</Path>
+                  <Path Filename="htop">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/htop/</Path>
+                  <Path Filename="menus">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="applications-merged">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/applications-merged/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/menus/</Path>
+                  <Path Filename="neofetch">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/neofetch/</Path>
+                  <Path Filename="openbox">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/openbox/</Path>
+                  <Path Filename="tilda">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/tilda/</Path>
+                  <Path Filename="tilda">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/tilda/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/8_configurazioni_utente.d/</Path>
+                  <Path Filename="..">/home/popi/deb1807/rel-4.1.0/</Path>
+                  <Path Filename="rel-4.2.0">/home/popi/deb1807/</Path>
+                  <Path Filename="1_sysconf.d">/home/popi/deb1807/rel-4.2.0/</Path>
+                  <Path Filename="root">/home/popi/deb1807/rel-4.2.0/1_sysconf.d/</Path>
+                  <Path Filename="status.sh">/home/popi/deb1807/rel-4.2.0/1_sysconf.d/root/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="mtp">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mtp/</Path>
+                  <Path Filename="pdf">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/pdf/</Path>
+                  <Path Filename="mp4">/mnt/disco2/repo/</Path>
+                  <Path Filename="Cartoni">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/Cartoni/</Path>
+                  <Path Filename="Documentari">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/Documentari/</Path>
+                  <Path Filename="Serie">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/Serie/</Path>
+                  <Path Filename="Documentari">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/Documentari/</Path>
+                  <Path Filename="_da_vedere">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/_da_vedere/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp4/</Path>
+                  <Path Filename="pdf">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/pdf/</Path>
+                  <Path Filename="mp3">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/</Path>
+                  <Path Filename="pdf">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/pdf/</Path>
+                  <Path Filename="mp3">/mnt/disco2/repo/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/</Path>
+                  <Path Filename="mp3">/mnt/disco2/repo/</Path>
+                  <Path Filename="jazz">/mnt/disco2/repo/mp3/</Path>
+                  <Path Filename="4_Sun_Ra_Albums">/mnt/disco2/repo/mp3/jazz/</Path>
+                  <Path Filename="1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Live_in_Egypt_1">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Live_in_Egypt_1/</Path>
+                  <Path Filename="1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Nidhamu">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Nidhamu/</Path>
+                  <Path Filename="1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Live_in_Egypt_1">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Live_in_Egypt_1/</Path>
+                  <Path Filename="1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Nidhamu">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1971-Sun_Ra_and_his_Astro_Intergalactic_Infinity_Arkestra-Nidhamu/</Path>
+                  <Path Filename="1967-9-Sun_Ra_and_his_Astro_Infinity_Arkestra-Atlantis_rel.1969_">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1967-9-Sun_Ra_and_his_Astro_Infinity_Arkestra-Atlantis_rel.1969_/</Path>
+                  <Path Filename="1956-57-Sun_Ra_and_the_Arkestra-Sound_of_Joy_rel.1968-CD_version">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/1956-57-Sun_Ra_and_the_Arkestra-Sound_of_Joy_rel.1968-CD_version/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/4_Sun_Ra_Albums/</Path>
+                  <Path Filename="1958-Cannonball_Adderley-Somethin_Else-2008,_EMI_Music_Japan,_TOJJ-6501,_Japan,_24-96-">/mnt/disco2/repo/mp3/jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/1958-Cannonball_Adderley-Somethin_Else-2008,_EMI_Music_Japan,_TOJJ-6501,_Japan,_24-96-/</Path>
+                  <Path Filename="1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_">/mnt/disco2/repo/mp3/jazz/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_/</Path>
+                  <Path Filename="1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_">/mnt/disco2/repo/mp3/jazz/</Path>
+                  <Path Filename="Disk_1">/mnt/disco2/repo/mp3/jazz/1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_/Disk_1/</Path>
+                  <Path Filename="..">/mnt/disco2/repo/mp3/jazz/1994_Keith_Jarrett_Trio-At_The_Blue_Note_Box_Set_320kbps_/</Path>
+                  <Path Filename="Chet_Baker_CB3-5">/mnt/disco2/repo/mp3/jazz/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/etc/cron.d/</Path>
+                  <Path Filename="dkms">/etc/</Path>
+                  <Path Filename="..">/etc/dkms/</Path>
+                  <Path Filename="emacs">/etc/</Path>
+                  <Path Filename="..">/etc/emacs/</Path>
+                  <Path Filename="fdclone">/etc/</Path>
+                  <Path Filename="..">/etc/fdclone/</Path>
+                  <Path Filename="initramfs-tools">/etc/</Path>
+                  <Path Filename="..">/etc/initramfs-tools/</Path>
+                  <Path Filename="libnl-3">/etc/</Path>
+                  <Path Filename="..">/etc/libnl-3/</Path>
+                  <Path Filename="lightdm">/etc/</Path>
+                  <Path Filename="..">/etc/lightdm/</Path>
+                  <Path Filename="mc">/etc/</Path>
+                  <Path Filename="..">/etc/mc/</Path>
+                  <Path Filename="ly">/etc/</Path>
+                  <Path Filename="..">/etc/ly/</Path>
+                  <Path Filename="menu">/etc/</Path>
+                  <Path Filename="..">/etc/menu/</Path>
+                  <Path Filename="modprobe.d">/etc/</Path>
+                  <Path Filename="..">/etc/modprobe.d/</Path>
+                  <Path Filename="modprobe.d">/etc/</Path>
+                  <Path Filename="..">/etc/modprobe.d/</Path>
+                  <Path Filename="nim">/etc/</Path>
+                  <Path Filename="..">/etc/nim/</Path>
+                  <Path Filename="pipewire">/etc/</Path>
+                  <Path Filename="..">/etc/pipewire/</Path>
+                  <Path Filename="sudoers.d">/etc/</Path>
+                  <Path Filename="..">/etc/sudoers.d/</Path>
+                  <Path Filename="sysctl.d">/etc/</Path>
+                  <Path Filename="..">/etc/sysctl.d/</Path>
+                  <Path Filename="systemd">/etc/</Path>
+                  <Path Filename="..">/etc/systemd/</Path>
+                  <Path Filename="ufw">/etc/</Path>
+                  <Path Filename="..">/etc/ufw/</Path>
+                  <Path Filename="default">/etc/</Path>
+                  <Path Filename="grub.d">/etc/default/</Path>
+                  <Path Filename="..">/etc/default/grub.d/</Path>
+                  <Path Filename="..">/etc/default/</Path>
+                  <Path Filename="..">/etc/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="popi">/home/</Path>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="dart">/home/popi/dart/</Path>
+                  <Path Filename="Rete_Due-02052021-1955-.mts">/home/popi/dart/dart/</Path>
+                  <Path Filename="..">/home/popi/dart/</Path>
+                  <Path Filename="zk">/home/popi/</Path>
+                  <Path Filename="..">/home/popi/zk/</Path>
+                  <Path Filename="zk">/home/popi/</Path>
+                  <Path Filename="zk">/home/popi/zk/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="packed">/home/popi/media/mmedia2/pdf/letteratura/</Path>
+                  <Path Filename="gBook">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 001-100">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 001-100/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 101-200">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 101-200/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 101-200">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 101-200/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 101-200">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 101-200/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 201-250">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 201-250/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 251-300">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 251-300/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 251-300">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 251-300/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 301-350">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 301-350/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 351-400">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 351-400/</Path>
+                  <Path Filename="gBook_ITA gPack (RAR) 401-450">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/gBook_ITA gPack (RAR) 401-450/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/gBook/</Path>
+                  <Path Filename="IPBOOK">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/IPBOOK/</Path>
+                  <Path Filename="LibeBook">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/LibeBook/</Path>
+                  <Path Filename="Biblio">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="0-9">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/0-9/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Biblio/</Path>
+                  <Path Filename="MixBook">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/MixBook/</Path>
+                  <Path Filename="Orevacam">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Orevacam/</Path>
+                  <Path Filename="Originbook">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/Originbook/</Path>
+                  <Path Filename="URV">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/URV/</Path>
+                  <Path Filename="BV">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/BV/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/packed/</Path>
+                  <Path Filename="Libri per autore">/home/popi/media/mmedia2/pdf/letteratura/</Path>
+                  <Path Filename="B">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/B/</Path>
+                  <Path Filename="A">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/A/</Path>
+                  <Path Filename="C">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/C/</Path>
+                  <Path Filename="C">/home/popi/media/mmedia2/pdf/letteratura/Libri per autore/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Disco">/home/popi/media/mmedia1/music/</Path>
+                  <Path Filename="Amanda_Lear">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Amanda_Lear/</Path>
+                  <Path Filename="Amii_Stewart">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Amii_Stewart/</Path>
+                  <Path Filename="Barry_White">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Barry_White/</Path>
+                  <Path Filename="Diana_Ross">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Diana_Ross/</Path>
+                  <Path Filename="Dionne_Warwick">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Dionne_Warwick/</Path>
+                  <Path Filename="Donna_Summer">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Donna_Summer/</Path>
+                  <Path Filename="Donna_Summer_Discography_1974-2008_Mp3_320Kbps">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/Donna_Summer_Discography_1974-2008_Mp3_320Kbps/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/Disco/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/</Path>
+                  <Path Filename="music">/home/popi/media/mmedia1/</Path>
+                  <Path Filename="jazz">/home/popi/media/mmedia1/music/</Path>
+                  <Path Filename="Paco_de_Lucia-Discography_1969-2004_FLAC_">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="Vinyl_Rips">/home/popi/media/mmedia1/music/jazz/Paco_de_Lucia-Discography_1969-2004_FLAC_/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Paco_de_Lucia-Discography_1969-2004_FLAC_/Vinyl_Rips/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Paco_de_Lucia-Discography_1969-2004_FLAC_/</Path>
+                  <Path Filename="Paco_de_Lucia_and_John_McLaughlin-Live_At_Montreux_1987_2016_">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Paco_de_Lucia_and_John_McLaughlin-Live_At_Montreux_1987_2016_/</Path>
+                  <Path Filename="varies">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="103_Songs-Montgomery-Gary_Burton-Joe_Pass-Pat_Metheny,_Ralph_Towner-Dave_Brubeck-Miles_Davis">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/103_Songs-Montgomery-Gary_Burton-Joe_Pass-Pat_Metheny,_Ralph_Towner-Dave_Brubeck-Miles_Davis/</Path>
+                  <Path Filename="The_new_real_book">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="The New Real Book vol.2 (Miles Davis, Jhon Coltrane, Bill Evans...) by anarkai">/home/popi/media/mmedia1/music/jazz/varies/The_new_real_book/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/The_new_real_book/The New Real Book vol.2 (Miles Davis, Jhon Coltrane, Bill Evans...) by anarkai/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/The_new_real_book/</Path>
+                  <Path Filename="Verve_Jazz_Masters_56">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/Verve_Jazz_Masters_56/</Path>
+                  <Path Filename="Vjm">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/Vjm/</Path>
+                  <Path Filename="VA_100_Years_of_Jazz">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="CD_01_Roots_and_Beginnings">/home/popi/media/mmedia1/music/jazz/varies/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/VA_100_Years_of_Jazz/CD_01_Roots_and_Beginnings/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="da_vedere">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/da_vedere/</Path>
+                  <Path Filename="Arne_Domerus">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Arne_Domerus/</Path>
+                  <Path Filename="Kyoto_jazz_massive">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="1994_Kyoto_Jazz_Massive-ape-by_MDL_">/home/popi/media/mmedia1/music/jazz/Kyoto_jazz_massive/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Kyoto_jazz_massive/1994_Kyoto_Jazz_Massive-ape-by_MDL_/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Kyoto_jazz_massive/</Path>
+                  <Path Filename="Kyoto_jazz_massive">/home/popi/media/mmedia1/music/jazz/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/VA_100_Years_of_Jazz/</Path>
+                  <Path Filename="VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube/</Path>
+                  <Path Filename="VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/VA-Titans_Of_Smooth_Jazz_2016_FLAC_vtwin88cube/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/varies/</Path>
+                  <Path Filename="da_vedere">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="Verve_Jazz_Masters_44_Clifford_Brown_and_Max_Roach">/home/popi/media/mmedia1/music/jazz/da_vedere/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/da_vedere/Verve_Jazz_Masters_44_Clifford_Brown_and_Max_Roach/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/da_vedere/</Path>
+                  <Path Filename="Alessandro_Ravi">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="ALESSANDRO_RAVI-1992-L_offerta_dell_acqua">/home/popi/media/mmedia1/music/jazz/Alessandro_Ravi/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Alessandro_Ravi/ALESSANDRO_RAVI-1992-L_offerta_dell_acqua/</Path>
+                  <Path Filename="ALESSANDRO_RAVI_1992_L_offerta_dell_acqua">/home/popi/media/mmedia1/music/jazz/Alessandro_Ravi/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Alessandro_Ravi/ALESSANDRO_RAVI_1992_L_offerta_dell_acqua/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Alessandro_Ravi/</Path>
+                  <Path Filename="Andrea Centazzo">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Andrea Centazzo/</Path>
+                  <Path Filename="Andrew_Hill">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Andrew_Hill/</Path>
+                  <Path Filename="Anthony_Braxton">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Anthony_Braxton/</Path>
+                  <Path Filename="Archie_Shepp">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Archie_Shepp/</Path>
+                  <Path Filename="Aretha_Franklin">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Aretha_Franklin/</Path>
+                  <Path Filename="Arne_Domerus">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Arne_Domerus/</Path>
+                  <Path Filename="Aretha_Franklin">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Aretha_Franklin/</Path>
+                  <Path Filename="Arne_Domerus">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Arne_Domerus/</Path>
+                  <Path Filename="Art_Blakey">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Art_Blakey/</Path>
+                  <Path Filename="Art_Pepper">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Art_Pepper/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/</Path>
+                  <Path Filename="..">/home/popi/media/</Path>
+                  <Path Filename="dart">/home/popi/</Path>
+                  <Path Filename="temp">/home/popi/dart/</Path>
+                  <Path Filename="ART PEPPER Meets Rhythm Section 1957">/home/popi/dart/temp/</Path>
+                  <Path Filename="..">/home/popi/dart/temp/ART PEPPER Meets Rhythm Section 1957/</Path>
+                  <Path Filename="..">/home/popi/dart/temp/</Path>
+                  <Path Filename="..">/home/popi/dart/</Path>
+                  <Path Filename="..">/home/popi/</Path>
+                  <Path Filename="popi">/home/</Path>
+                  <Path Filename="media">/home/popi/</Path>
+                  <Path Filename="mmedia1">/home/popi/media/</Path>
+                  <Path Filename="_spostare">/home/popi/media/mmedia1/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/_spostare/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Earl Hines - Piano Man (1939-42 Bluebird)[APE Full Scans]">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/Earl Hines - Piano Man (1939-42 Bluebird)[APE Full Scans]/</Path>
+                  <Path Filename="Giants of Jazz - Disc 155 - Lennie Tristano featuring Lee Konitz">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/Giants of Jazz - Disc 155 - Lennie Tristano featuring Lee Konitz/</Path>
+                  <Path Filename="Giants of Jazz - Disc 155 - Lennie Tristano featuring Lee Konitz">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/Giants of Jazz - Disc 155 - Lennie Tristano featuring Lee Konitz/</Path>
+                  <Path Filename="John Coltrane - John Coltrane My Favorite Things (1961) [EAC.APE.CUE.MD5.NO COVERS] metro [HQJazz]">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/John Coltrane - John Coltrane My Favorite Things (1961) [EAC.APE.CUE.MD5.NO COVERS] metro [HQJazz]/</Path>
+                  <Path Filename="Unpack-5348">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/Unpack-5348/</Path>
+                  <Path Filename="303-Lee_Konitz_and_Mario_Rusca-Where_s_the_Blues,_1997">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/303-Lee_Konitz_and_Mario_Rusca-Where_s_the_Blues,_1997/</Path>
+                  <Path Filename="301-Scott,_Tony-The_Old_Lion_Roars">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/301-Scott,_Tony-The_Old_Lion_Roars/</Path>
+                  <Path Filename="289-Glenn_Miller-The_Lost_Recordings,_Vol_2,_1944">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/289-Glenn_Miller-The_Lost_Recordings,_Vol_2,_1944/</Path>
+                  <Path Filename="288-Glenn_Miller-The_Lost_Recordings,_vol._1,_1944">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/288-Glenn_Miller-The_Lost_Recordings,_vol._1,_1944/</Path>
+                  <Path Filename="284-George_Benson-Immortal_Concerts,_San_Francisco,_1972">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/284-George_Benson-Immortal_Concerts,_San_Francisco,_1972/</Path>
+                  <Path Filename="280-Charlie_Barnet_and_his_Orchestra-Skyliner_1940-1945">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/280-Charlie_Barnet_and_his_Orchestra-Skyliner_1940-1945/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Giants_of_Jazz/</Path>
+                  <Path Filename="Ornette_coleman_rar">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Ornette_coleman_rar/</Path>
+                  <Path Filename="Peter.Erskine.Living.Drums">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Peter.Erskine.Living.Drums/</Path>
+                  <Path Filename="Ornette_coleman_rar">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Ornette_coleman_rar/</Path>
+                  <Path Filename="Ornette_coleman_rar">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/Ornette_coleman_rar/</Path>
+                  <Path Filename="mp4">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/mp4/</Path>
+                  <Path Filename="rar">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/rar/</Path>
+                  <Path Filename="mp4">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/mp4/</Path>
+                  <Path Filename="mp4">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/mp4/</Path>
+                  <Path Filename="mp4">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/mp4/</Path>
+                  <Path Filename="mp4">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/mp4/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/packed/</Path>
+                  <Path Filename="Keith_Jarrett">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Keith_Jarrett/</Path>
+                  <Path Filename="Duke_Ellington">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="..">/home/popi/media/mmedia1/music/jazz/Duke_Ellington/</Path>
+                  <Path Filename="Paul_Bley">/home/popi/media/mmedia1/music/jazz/</Path>
+                  <Path Filename="paul_bley,_charles_mingus_and_art_blakey">/home/popi/media/mmedia1/music/jazz/Paul_Bley/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+      </Right>
+    </OpenedTabs>
+    <ActionOnDoubleClick>1</ActionOnDoubleClick>
+  </Tabs>
+  <Log Enabled="False" LogFileWithDateInName="False" Count="0">
+    <FileName>/home/popi/.config/doublecmd/doublecmd.log</FileName>
+    <Options>255</Options>
+  </Log>
+  <History>
+    <SearchReplaceHistory Save="True"/>
+    <DirHistory Save="True"/>
+    <CmdLineHistory Save="True"/>
+    <FileMaskHistory Save="True"/>
+  </History>
+  <QuickSearch Enabled="True">
+    <Mode>6</Mode>
+    <MatchBeginning>True</MatchBeginning>
+    <MatchEnding>True</MatchEnding>
+    <Case>1</Case>
+    <Items>2</Items>
+  </QuickSearch>
+  <QuickFilter Enabled="False">
+    <Mode>0</Mode>
+    <AutoHide>True</AutoHide>
+    <SaveSessionModifications>False</SaveSessionModifications>
+  </QuickFilter>
+  <Miscellaneous>
+    <GridVertLine>True</GridVertLine>
+    <GridHorzLine>False</GridHorzLine>
+    <ShowWarningMessages>True</ShowWarningMessages>
+    <SpaceMovesDown>True</SpaceMovesDown>
+    <DirBrackets>True</DirBrackets>
+    <InplaceRename>False</InplaceRename>
+    <HotDirAddTargetOrNot>False</HotDirAddTargetOrNot>
+    <HotDirFullExpandOrNot>False</HotDirFullExpandOrNot>
+    <ShowPathInPopup>False</ShowPathInPopup>
+    <ShowOnlyValidEnv>True</ShowOnlyValidEnv>
+    <WhereToAddNewHotDir>2</WhereToAddNewHotDir>
+    <DblClickToParent>False</DblClickToParent>
+    <InplaceRenameButton>False</InplaceRenameButton>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+  </Miscellaneous>
+  <AutoRefresh>
+    <Options>5</Options>
+    <ExcludeDirs/>
+    <Mode>0</Mode>
+  </AutoRefresh>
+  <Icons>
+    <ShowMode>0</ShowMode>
+    <ShowOverlays>False</ShowOverlays>
+    <Size>16</Size>
+    <Exclude>False</Exclude>
+    <ExcludeDirs/>
+    <ShowInMenus Enabled="False">
+      <Size>16</Size>
+    </ShowInMenus>
+    <Theme>dctheme</Theme>
+    <DiskSize>16</DiskSize>
+    <CustomIcons>0</CustomIcons>
+    <PixelsPerInch>96</PixelsPerInch>
+    <ShowButtonGlyphs>0</ShowButtonGlyphs>
+    <DiskAlpha>50</DiskAlpha>
+    <ShowHiddenDimmed>False</ShowHiddenDimmed>
+    <ToolSize>24</ToolSize>
+  </Icons>
+  <IgnoreList Enabled="False">
+    <IgnoreListFile>/home/popi/.config/doublecmd/ignorelist.txt</IgnoreListFile>
+  </IgnoreList>
+  <DirectoryHotList/>
+  <Viewer>
+    <PreviewVisible>False</PreviewVisible>
+    <SaveThumbnails>True</SaveThumbnails>
+    <ImageStretch>False</ImageStretch>
+    <CopyMovePath1/>
+    <CopyMovePath2/>
+    <CopyMovePath3/>
+    <CopyMovePath4/>
+    <CopyMovePath5/>
+    <PaintMode>0</PaintMode>
+    <PaintWidth>5</PaintWidth>
+    <NumberOfColumns>1</NumberOfColumns>
+    <ViewerMode>1</ViewerMode>
+    <PaintColor>255</PaintColor>
+    <BackgroundColor>0</BackgroundColor>
+    <FontColor>16777215</FontColor>
+    <TextPosition>0</TextPosition>
+    <ImageStretchLargeOnly>False</ImageStretchLargeOnly>
+    <ImageCenter>True</ImageCenter>
+    <ImageExifRotate>True</ImageExifRotate>
+    <ViewerTop>20</ViewerTop>
+    <ViewerLeft>38</ViewerLeft>
+    <ViewerWidth>1833</ViewerWidth>
+    <ViewerHeight>1052</ViewerHeight>
+    <TabSpaces>8</TabSpaces>
+    <MaxTextWidth>1024</MaxTextWidth>
+    <PrintMargins>200|200|200|200</PrintMargins>
+    <ShowCaret>False</ShowCaret>
+  </Viewer>
+  <Lua>
+    <PathToLibrary>liblua5.1.so.0</PathToLibrary>
+  </Lua>
+  <NameShortcutFile>shortcuts.scf</NameShortcutFile>
+  <LastUsedPacker>xz</LastUsedPacker>
+  <SearchTemplates/>
+  <ColumnsSets DefaultTitleHash="0">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <CustomView>False</CustomView>
+      <FileSystem>&lt;General&gt;</FileSystem>
+      <PixelsPerInch>96</PixelsPerInch>
+      <CursorBorder Enabled="False">
+        <Color>-2147483635</Color>
+      </CursorBorder>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAME{}] </FuncString>
+          <Width>371</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Droid Sans Mono</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>True</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>76</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Droid Sans Mono</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>True</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>81</Width>
+          <Align>1</Align>
+          <Font>
+            <Name>Droid Sans Mono</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>True</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>81</Width>
+          <Align>0</Align>
+          <Font>
+            <Name>Droid Sans Mono</Name>
+            <Size>10</Size>
+            <Style>0</Style>
+            <Quality>0</Quality>
+          </Font>
+          <TextColor>536870912</TextColor>
+          <Background>16777215</Background>
+          <Background2>16777215</Background2>
+          <MarkColor>255</MarkColor>
+          <CursorColor>-2147483635</CursorColor>
+          <CursorText>-2147483634</CursorText>
+          <InactiveCursorColor>-2147483645</InactiveCursorColor>
+          <InactiveMarkColor>255</InactiveMarkColor>
+          <UseInvertedSelection>True</UseInvertedSelection>
+          <UseInactiveSelColor>False</UseInactiveSelColor>
+          <Overcolor>True</Overcolor>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
+  <MainWindow>
+    <Position Save="True">
+      <Maximized>True</Maximized>
+      <Left>0</Left>
+      <Top>8</Top>
+      <Width>1918</Width>
+      <Height>1044</Height>
+      <Splitter>50.9297520661157</Splitter>
+      <PixelsPerInch>96</PixelsPerInch>
+    </Position>
+  </MainWindow>
+  <Toolbars>
+    <MainToolbar/>
+    <MiddleToolbar>
+      <Row>
+        <Command>
+          <ID>{C1AF387D-CAAE-4304-A00C-784E38A8D6FB}</ID>
+          <Icon>cm_view</Icon>
+          <Command>cm_View</Command>
+        </Command>
+        <Command>
+          <ID>{CDBC598E-73A3-4165-82A3-4902B21A0A91}</ID>
+          <Icon>cm_edit</Icon>
+          <Command>cm_Edit</Command>
+        </Command>
+        <Command>
+          <ID>{D33C3E69-BFE0-48D0-8506-FD9C69AD2ABB}</ID>
+          <Icon>cm_copy</Icon>
+          <Command>cm_Copy</Command>
+        </Command>
+        <Command>
+          <ID>{8ED97444-B1F6-4FD7-AFAC-EFBF96F37B0D}</ID>
+          <Icon>cm_rename</Icon>
+          <Command>cm_Rename</Command>
+        </Command>
+        <Separator>
+          <Style>True</Style>
+        </Separator>
+        <Command>
+          <ID>{43B4BE6F-4FD8-42D7-B932-1DDF0FA444C3}</ID>
+          <Icon>cm_packfiles</Icon>
+          <Command>cm_PackFiles</Command>
+        </Command>
+        <Command>
+          <ID>{9BE5EA39-A59C-4BD9-BBC8-7644FB1B723E}</ID>
+          <Icon>cm_makedir</Icon>
+          <Command>cm_MakeDir</Command>
+        </Command>
+      </Row>
+    </MiddleToolbar>
+  </Toolbars>
+  <FilesViews>
+    <Sorting>
+      <CaseSensitivity>2</CaseSensitivity>
+      <NaturalSorting>True</NaturalSorting>
+      <SortFolderMode>0</SortFolderMode>
+      <NewFilesPosition>2</NewFilesPosition>
+      <UpdatedFilesPosition>1</UpdatedFilesPosition>
+      <SpecialSorting>False</SpecialSorting>
+    </Sorting>
+    <ColumnsView>
+      <AutoSaveWidth>True</AutoSaveWidth>
+      <TitleStyle>1</TitleStyle>
+    </ColumnsView>
+    <BriefView>
+      <FileExtAligned>False</FileExtAligned>
+      <Columns>
+        <FixedWidth>100</FixedWidth>
+        <FixedCount>2</FixedCount>
+        <AutoSize>2</AutoSize>
+      </Columns>
+    </BriefView>
+    <ExtraLineSpan>2</ExtraLineSpan>
+    <FolderPrefix>[</FolderPrefix>
+    <FolderPostfix>]</FolderPostfix>
+  </FilesViews>
+  <Keyboard>
+    <Typing>
+      <Actions>
+        <NoModifier>1</NoModifier>
+        <Alt>0</Alt>
+        <CtrlAlt>2</CtrlAlt>
+      </Actions>
+    </Typing>
+  </Keyboard>
+  <Thumbnails Save="True">
+    <Width>128</Width>
+    <Height>128</Height>
+  </Thumbnails>
+  <UseShellForFileOperations>False</UseShellForFileOperations>
+  <SyncDirs>
+    <Subdirs>False</Subdirs>
+    <ByContent>False</ByContent>
+    <IgnoreDate>False</IgnoreDate>
+    <FilterCopyRight>False</FilterCopyRight>
+    <FilterEqual>True</FilterEqual>
+    <FilterNotEqual>True</FilterNotEqual>
+    <FilterCopyLeft>True</FilterCopyLeft>
+    <FilterDuplicates>True</FilterDuplicates>
+    <FilterSingles>True</FilterSingles>
+    <FileMask>*</FileMask>
+    <Asymmetric Save="False">False</Asymmetric>
+    <Colors>
+      <Left>32768</Left>
+      <Right>16711680</Right>
+      <Unknown>255</Unknown>
+    </Colors>
+  </SyncDirs>
+  <Editor>
+    <SynEditOptions>856075</SynEditOptions>
+    <EditWaitTime>2000</EditWaitTime>
+    <SynEditTabWidth>8</SynEditTabWidth>
+    <SynEditRightEdge>80</SynEditRightEdge>
+  </Editor>
+  <InternalAssociations>
+    <OfferToAddNewFileType>False</OfferToAddNewFileType>
+    <LastCustomAction>Custom action</LastCustomAction>
+    <ExpandedContextMenu>False</ExpandedContextMenu>
+    <ExecuteViaShell>False</ExecuteViaShell>
+    <OpenSystemWithTerminalClose>False</OpenSystemWithTerminalClose>
+    <OpenSystemWithTerminalStayOpen>False</OpenSystemWithTerminalStayOpen>
+    <IncludeFileAssociation>False</IncludeFileAssociation>
+    <FilenameStyle>0</FilenameStyle>
+    <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
+    <PathModifierElements>0</PathModifierElements>
+  </InternalAssociations>
+  <FavoriteTabsOptions>
+    <FavoriteTabsUseRestoreExtraOptions>False</FavoriteTabsUseRestoreExtraOptions>
+    <WhereToAdd>1</WhereToAdd>
+    <Expand>True</Expand>
+    <GotoConfigAftSav>False</GotoConfigAftSav>
+    <GotoConfigAftReSav>False</GotoConfigAftReSav>
+    <DfltLeftGoTo>0</DfltLeftGoTo>
+    <DfltRightGoTo>1</DfltRightGoTo>
+    <DfltKeep>5</DfltKeep>
+    <DfltSaveDirHistory>False</DfltSaveDirHistory>
+    <FavTabsLastUniqueID>{1A018BC7-0AB0-45E7-8583-C96FA0265E76}</FavTabsLastUniqueID>
+  </FavoriteTabsOptions>
+  <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
+  <Description>
+    <CreateNewUnicode>True</CreateNewUnicode>
+    <DefaultEncoding>2</DefaultEncoding>
+    <CreateNewEncoding>3</CreateNewEncoding>
+  </Description>
+  <TreeViewMenu>
+    <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
+    <UseTVMDirectoryHotlistFDC>False</UseTVMDirectoryHotlistFDC>
+    <UseTVMFavoriteTabsFMC>False</UseTVMFavoriteTabsFMC>
+    <UseTVMFavoriteTabsFDC>False</UseTVMFavoriteTabsFDC>
+    <UseTVMDirHistory>False</UseTVMDirHistory>
+    <UseTVMViewHistory>False</UseTVMViewHistory>
+    <UseTVMCommandLineHistory>False</UseTVMCommandLineHistory>
+    <TreeViewMenuShortcutExit>True</TreeViewMenuShortcutExit>
+    <TreeViewMenuSingleClickExit>True</TreeViewMenuSingleClickExit>
+    <TreeViewMenuDoubleClickExit>True</TreeViewMenuDoubleClickExit>
+    <Context00>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context00>
+    <Context01>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context01>
+    <Context02>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context02>
+    <Context03>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context03>
+    <Context04>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context04>
+    <Context05>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context05>
+    <Context06>
+      <CaseSensitive>False</CaseSensitive>
+      <IgnoreAccents>True</IgnoreAccents>
+      <ShowWholeBranchIfMatch>False</ShowWholeBranchIfMatch>
+    </Context06>
+    <TreeViewMenuUseKeyboardShortcut>True</TreeViewMenuUseKeyboardShortcut>
+    <BackgroundColor>-2147483617</BackgroundColor>
+    <ShortcutColor>255</ShortcutColor>
+    <NormalTextColor>-2147483640</NormalTextColor>
+    <SecondaryTextColor>-2147483642</SecondaryTextColor>
+    <FoundTextColor>-2147483635</FoundTextColor>
+    <UnselectableTextColor>-2147483631</UnselectableTextColor>
+    <CursorColor>-2147483635</CursorColor>
+    <ShortcutUnderCursor>-2147483634</ShortcutUnderCursor>
+    <NormalTextUnderCursor>-2147483634</NormalTextUnderCursor>
+    <SecondaryTextUnderCursor>-2147483628</SecondaryTextUnderCursor>
+    <FoundTextUnderCursor>65535</FoundTextUnderCursor>
+    <UnselectableUnderCursor>-2147483631</UnselectableUnderCursor>
+  </TreeViewMenu>
+  <HotKeySortOrder>0</HotKeySortOrder>
+  <UseEnterToCloseHotKeyEditor>True</UseEnterToCloseHotKeyEditor>
+  <MarkMaskCaseSensitive>False</MarkMaskCaseSensitive>
+  <MarkMaskIgnoreAccents>False</MarkMaskIgnoreAccents>
+  <MarkMaskFilterWindows>False</MarkMaskFilterWindows>
+  <MarkShowWantedAttribute>False</MarkShowWantedAttribute>
+  <MarkDefaultWantedAttribute/>
+  <MarkLastWantedAttribute/>
+  <Differ>
+    <Colors>
+      <Added>11206570</Added>
+      <Deleted>11184895</Deleted>
+      <Modified>16755370</Modified>
+      <Binary>
+        <Modified>255</Modified>
+      </Binary>
+    </Colors>
+    <IgnoreCase>False</IgnoreCase>
+    <KeepScrolling>True</KeepScrolling>
+    <PaintBackground>True</PaintBackground>
+    <LineDifferences>False</LineDifferences>
+    <IgnoreWhiteSpace>False</IgnoreWhiteSpace>
+  </Differ>
+</doublecmd>

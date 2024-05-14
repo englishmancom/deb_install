@@ -1,0 +1,79 @@
+[NotebookList]
+Default=~/Notebooks/Notes
+1=~/Notebooks/Notes
+2=~/Notebooks/Notizie
+3=~/Notebooks/Edgar_Wallace
+4=~/Notebooks/GDT
+5=~/Notebooks/Dialogo
+6=~/Notebooks/P-NP
+7=~/Notebooks/Ufficio
+8=~/Notebooks/Organizzazione personale
+9=~/Notebooks/Appunti libri
+10=~/Notebooks/Casse Acustiche
+11=~/Notebooks/Macchinun
+
+[Notebook 1]
+uri=~/Notebooks/Notes
+name=Notes
+interwiki=None
+icon=None
+
+[Notebook 2]
+uri=~/Notebooks/Notizie
+name=Notizie
+interwiki=None
+icon=None
+
+[Notebook 3]
+uri=~/Notebooks/Edgar_Wallace
+name=Edgar Wallace
+interwiki=None
+icon=None
+
+[Notebook 4]
+uri=~/Notebooks/GDT
+name=GDT
+interwiki=None
+icon=None
+
+[Notebook 5]
+uri=~/Notebooks/Dialogo
+name=Dialogo
+interwiki=None
+icon=None
+
+[Notebook 6]
+uri=~/Notebooks/P-NP
+name=P-NP
+interwiki=None
+icon=None
+
+[Notebook 7]
+uri=~/Notebooks/Ufficio
+name=Ufficio
+interwiki=None
+icon=None
+
+[Notebook 8]
+uri=~/Notebooks/Organizzazione personale
+name=Organizzazione personale
+interwiki=None
+icon=None
+
+[Notebook 9]
+uri=~/Notebooks/Appunti libri
+name=Appunti libri
+interwiki=None
+icon=None
+
+[Notebook 10]
+uri=~/Notebooks/Casse Acustiche
+name=Casse Acustiche
+interwiki=None
+icon=None
+
+[Notebook 11]
+uri=~/Notebooks/Macchinun
+name=Macchinun
+interwiki=None
+icon=None

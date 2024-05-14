@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+<menu id="system-menu" label="System menu">
+  <separator />
+  <item label="Terminal emulator">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+</menu>  
+<menu id="root-menu" label="Root menu">
+  <menu id="client-list-menu">
+  </menu>
+  <separator />
+  <item label="Terminal emulator">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Web browser">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+  <menu id="ObDevice-menu" label="ObDevice" execute="~/.local/bin/obdevicemenu"/>
+  <!-- This requires the presence of the 'obamenu' package to work -->
+  <menu id="/Debian" />
+  <separator />
+  <menu id="applications-menu2" label="Obamenu" icon="/usr/share/icons/applications.png" execute="cat ~/.config/openbox/obamenu.xml"/>
+  <separator />
+  <item label="ObConf">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <separator />
+  <item label="Mount Samba">
+    <action name="Execute"><execute>~/.local/bin/cifs-mount</execute></action>
+  </item>
+  <item label="Umount Samba">
+    <action name="Execute"><execute>~/.local/bin/cifs-umount</execute></action>
+  </item>
+<separator/>
+<menu id="root-menu-712912" label="On-off">
+	<item label="Reconfigure">
+		<action name="Reconfigure"/>
+	</item>
+	<item label="Restart">
+		<action name="Restart"/>
+	</item>
+	<item label="Exit">
+		<action name="Exit"/>
+	</item>
+
+	<item label="Hibernate">
+		<action name="Execute">
+			<execute>sudo systemctl hibernate</execute>
+		</action>
+	</item>
+	<item label="Suspend">
+		<action name="Execute">
+			<execute>sudo systemctl suspend</execute>
+		</action>
+	</item>
+	<item label="Reboot">
+		<action name="Execute">
+			<execute>sudo systemctl reboot</execute>
+		</action>
+	</item>
+	<item label="Poweroff">
+		<action name="Execute">
+			<execute>sudo systemctl poweroff</execute>
+		</action>
+	</item>
+	
+</menu>
+  
+</menu>
+
+</openbox_menu>

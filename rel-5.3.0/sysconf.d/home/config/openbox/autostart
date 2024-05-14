@@ -1,0 +1,7 @@
+~/.local/bin/cifs-mount &
+light-locker&
+dunst&
+xsetroot -solid teal &
+obamenu >~/.config/openbox/obamenu.xml
+ffplay -nodisp -autoexit ~/sounds/Pacman_Introduction_Music-KP-826387403.mp3 &
+qasmixer -t &

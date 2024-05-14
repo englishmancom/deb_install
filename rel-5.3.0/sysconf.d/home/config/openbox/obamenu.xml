@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?><openbox_pipe_menu xmlns="http://openbox.org/"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://openbox.org/" >
+<menu id="openbox-Office" label="Office"  >
+<item label="LibreOffice Draw" ><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+<item label="LibreOffice" ><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+<item label="LibreOffice Base" ><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+<item label="Foliate" ><action name="Execute"><command><![CDATA[com.github.johnfactotum.Foliate]]></command></action></item>
+<item label="LibreOffice Math" ><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+<item label="LibreOffice Calc" ><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+<item label="LibreOffice Impress" ><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+<item label="LibreOffice Writer" ><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+</menu>
+<menu id="openbox-Development" label="Development"  >
+<item label="Python (v2.7)" icon="/usr/share/pixmaps/python2.7.xpm" ><action name="Execute"><command><![CDATA[evte -e /usr/bin/python2.7]]></command></action></item>
+<item label="Python (v3.9)" icon="/usr/share/pixmaps/python3.9.xpm" ><action name="Execute"><command><![CDATA[evte -e /usr/bin/python3.9]]></command></action></item>
+<item label="Geany" icon="/usr/share/pixmaps/geany.xpm" ><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+<item label="Zeal" ><action name="Execute"><command><![CDATA[zeal]]></command></action></item>
+</menu>
+<menu id="openbox-Graphics" label="Graphics"  >
+<item label="DjView4" ><action name="Execute"><command><![CDATA[djview4]]></command></action></item>
+<item label="LibreOffice Draw" ><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+<item label="MuPDF" icon="/usr/share/pixmaps/mupdf.png" ><action name="Execute"><command><![CDATA[mupdf]]></command></action></item>
+</menu>
+<menu id="openbox-Internet" label="Internet"  >
+<item label="Thunderbird" ><action name="Execute"><command><![CDATA[/usr/bin/thunderbird]]></command></action></item>
+<item label="aMule" icon="/usr/share/pixmaps/amule.xpm" ><action name="Execute"><command><![CDATA[amule]]></command></action></item>
+<item label="Google Chrome (beta)" ><action name="Execute"><command><![CDATA[/usr/bin/google-chrome-beta]]></command></action></item>
+<item label="qBittorrent" icon="/usr/share/pixmaps/qbittorrent.png" ><action name="Execute"><command><![CDATA[qbittorrent]]></command></action></item>
+</menu>
+<menu id="openbox-Games" label="Games"  >
+<item label="Zandronum" icon="/usr/share/pixmaps/zandronum.png" ><action name="Execute"><command><![CDATA[zandronum]]></command></action></item>
+<item label="DOSBox Emulator" ><action name="Execute"><command><![CDATA[dosbox]]></command></action></item>
+</menu>
+<menu id="openbox-System" label="System"  >
+<item label="qps" ><action name="Execute"><command><![CDATA[qps]]></command></action></item>
+<item label="Tilda" icon="/usr/share/pixmaps/tilda.png" ><action name="Execute"><command><![CDATA[/usr/bin/tilda]]></command></action></item>
+<item label="UXTerm" ><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+<item label="Q4Wine" ><action name="Execute"><command><![CDATA[q4wine -b]]></command></action></item>
+<item label="QDirStat" ><action name="Execute"><command><![CDATA[qdirstat]]></command></action></item>
+<item label="Alternatives Configurator" ><action name="Execute"><command><![CDATA[/usr/bin/galternatives]]></command></action></item>
+<item label="Midnight Commander" ><action name="Execute"><command><![CDATA[evte -e mc]]></command></action></item>
+<item label="Htop" icon="/usr/share/pixmaps/htop.png" ><action name="Execute"><command><![CDATA[evte -e htop]]></command></action></item>
+<item label="XTerm" ><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+<item label="Xfe" icon="/usr/share/pixmaps/xfe.xpm" ><action name="Execute"><command><![CDATA[xfe]]></command></action></item>
+</menu>
+<menu id="openbox-Multimedia" label="Multimedia"  >
+<item label="VLC media player" ><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+<item label="HDSPConf" ><action name="Execute"><command><![CDATA[hdspconf]]></command></action></item>
+<item label="Envy24 Control" ><action name="Execute"><command><![CDATA[envy24control]]></command></action></item>
+<item label="Avidemux" ><action name="Execute"><command><![CDATA[avidemux3_qt5]]></command></action></item>
+<item label="HDAJackRetask" ><action name="Execute"><command><![CDATA[hdajackretask]]></command></action></item>
+<item label="Avidemux jobs manager" ><action name="Execute"><command><![CDATA[avidemux3_jobs]]></command></action></item>
+<item label="HDSPMixer" ><action name="Execute"><command><![CDATA[hdspmixer]]></command></action></item>
+<item label="mpv Media Player" ><action name="Execute"><command><![CDATA[mpv --player-operation-mode]]></command></action></item>
+<item label="QasMixer" ><action name="Execute"><command><![CDATA[qasmixer]]></command></action></item>
+<item label="Audacious" ><action name="Execute"><command><![CDATA[audacious]]></command></action></item>
+<item label="Alsamixergui" icon="/usr/share/pixmaps/alsamixergui.xpm" ><action name="Execute"><command><![CDATA[/usr/bin/alsamixergui]]></command></action></item>
+<item label="Rmedigicontrol" icon="/usr/share/pixmaps/alsa-tools.xpm" ><action name="Execute"><command><![CDATA[rmedigicontrol]]></command></action></item>
+<item label="Echomixer" ><action name="Execute"><command><![CDATA[echomixer]]></command></action></item>
+</menu>
+<menu id="openbox-Utilities" label="Utilities"  >
+<item label="File Commander/L" ><action name="Execute"><command><![CDATA[fcl]]></command></action></item>
+<item label="Xfimage" icon="/usr/share/pixmaps/xfi.xpm" ><action name="Execute"><command><![CDATA[xfimage]]></command></action></item>
+<item label="Tilda" icon="/usr/share/pixmaps/tilda.png" ><action name="Execute"><command><![CDATA[/usr/bin/tilda]]></command></action></item>
+<item label="Xfpack" icon="/usr/share/pixmaps/xfp.xpm" ><action name="Execute"><command><![CDATA[xfpack]]></command></action></item>
+<item label="Neovim" ><action name="Execute"><command><![CDATA[evte -e nvim]]></command></action></item>
+<item label="Midnight Commander" ><action name="Execute"><command><![CDATA[evte -e mc]]></command></action></item>
+<item label="Zim Desktop Wiki" ><action name="Execute"><command><![CDATA[zim]]></command></action></item>
+<item label="Xarchiver" ><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
+<item label="Debian Reference" icon="/usr/share/pixmaps/debian-reference.png" ><action name="Execute"><command><![CDATA[debian-reference]]></command></action></item>
+<item label="Xfwrite" icon="/usr/share/pixmaps/xfw.xpm" ><action name="Execute"><command><![CDATA[xfwrite]]></command></action></item>
+<item label="Double Commander" ><action name="Execute"><command><![CDATA[doublecmd]]></command></action></item>
+<item label="Midnight Commander editor" ><action name="Execute"><command><![CDATA[evte -e mcedit]]></command></action></item>
+</menu>
+<menu id="openbox-Settings" label="Settings"  >
+<item label="Openbox Configuration Manager" icon="/usr/share/pixmaps/obconf.png" ><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+<item label="Alternatives Configurator" ><action name="Execute"><command><![CDATA[/usr/bin/galternatives]]></command></action></item>
+<item label="Openbox Settings" ><action name="Execute"><command><![CDATA[obconf-qt]]></command></action></item>
+<item label="ARandR" ><action name="Execute"><command><![CDATA[arandr]]></command></action></item>
+<item label="Customize Look and Feel" ><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+</menu>
+</openbox_pipe_menu>
